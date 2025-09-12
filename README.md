@@ -7,4 +7,4 @@ This is the repository for my personal blog post and note.
 - The home page is  *index.md*
 - About Page in *about.md*
 - The content of this repository is automaticcaly published at https://emanbuc.github.io/ using GitHub *pages" feature
-- 
+- *Posts* files in *_posts* folders must be named in the format YYYY-MM-DD_TITLE_OF_THE_POST.md
