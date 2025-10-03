@@ -62,7 +62,7 @@ SSRN è un'ottima alternativa, specialmente se il tuo lavoro si colloca all'inte
 
 ### Quale Scegliere?
 
-La scelta finale dipende dall'argomento del tuo lavoro,  dallo scopo che vuoi raggiungerlo pubblicandolo e dal tipo di materiale (dumento LaTex, Documento Word, file con dataset, codice sorgente, software associato, ... ). 
+La scelta finale dipende dall'argomento del tuo lavoro,  dallo scopo che vuoi raggiungerlo pubblicandolo e dal tipo di materiale (dumento LaTex, documento Word, file con dataset, codice sorgente, software associato, ... ). 
 Ad esempio per delle dispense di **Machine Learning** già pronte in LaTeX/PDF potresti ragionare in questo modo:
 
 | Scenario | Piattaforma Raccomandata | Motivo Principale |
