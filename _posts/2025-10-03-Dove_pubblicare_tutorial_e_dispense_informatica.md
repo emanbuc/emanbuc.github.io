@@ -34,7 +34,7 @@ Se le tue dispense sono strutturate come un **Survey** o un **Report Tecnico** c
 
 * Il processo di pubblicazione solitamente richiede i sorgenti **LaTeX**.
 
-**Attenzione:** arXiv è orientato alla ricerca con **contributi nuovi**.  I report tecnici e i survey esaustivi sono accetti purchè ritenuti "scientificamente rilevanti dai moderatori". 
+**Attenzione:** arXiv è orientato alla ricerca con **contributi nuovi**.  I report tecnici e i survey esaustivi sono accettati solo se ritenuti "scientificamente rilevanti" dai moderatori. 
 
 ---
 
