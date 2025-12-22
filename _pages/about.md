@@ -27,8 +27,23 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an **Italian Software Engineer** and researcher with a lifelong passion for the intersection of science and technology. My journey has been defined by a dual commitment to industrial innovation and academic rigor, allowing me to bridge the gap between complex theory and practical, scalable software solutions.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### Industrial Experience
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Since 2019, I have served as the **Chief Technology Officer (CTO) at Smartpeg**, where I lead the development of data-driven software solutions for Human Resource management and AI-powered intelligence tools. I first joined Smartpeg in 2016, diving deep into Industrial IoT and Machine Learning. Prior to this, I gained extensive experience in technical and managerial roles across the electronics and fashion sectors, working with multinational companies both in Italy and abroad. To complement my technical background, I earned my **MBA in 2011**, which helps me navigate the strategic side of technology management.
+
+### Research & Academia
+
+In 2024, I completed my **Ph.D. in Industrial and Information Engineering** at the University of Perugia. My research focuses on **uncertainty quantification** in machine learning-based systems. I currently serve as a Subject Expert and Research Affiliate at the University’s Department of Engineering. My scientific work sits at the crossroads of **Artificial Intelligence, Electronic Measurements, and Software Engineering**, with a specific focus on applying metrological concepts to AI to improve reliability, interpretability, and sustainability.
+
+### Technical Expertise
+
+Beyond my primary focus on AI and ML, I have a broad interest in the modern software ecosystem, including:
+
+* **Cloud Computing & Cloud-native Architectures**
+* **DevOps & Cybersecurity**
+* **Internet of Things (IoT)**
+* **Software Quality & Characterization**
+
+I am an active member of the **ACM** and the **IEEE** (Computer Society and Instrumentation & Measurement Society), staying at the forefront of the global conversation on reliable technology.
