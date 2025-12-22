@@ -539,13 +539,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/emanuelebuchicchio", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0002-2786-5931", "_blank");
-        },
-      },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
