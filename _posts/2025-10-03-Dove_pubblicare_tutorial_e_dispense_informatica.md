@@ -1,3 +1,16 @@
+---
+layout: post
+title: Dove pubblicare i tuoi tutorial e dispense di informatica
+date: 2025-07-11 11:46:00
+description: this is what advanced image components could look like
+tags: preprint openaccess
+categories: research
+# thumbnail: assets/img/9.jpg
+images:
+  compare: true
+  slider: true
+---
+
 # Dove pubblicare i tuoi tutorial e dispense di informatica: quattro piattaforme per citabilità e riconoscimento
 
 Hai scritto delle **dispense** dettagliate su machine learning, un **tutorial** su Python o una **guida tecnica** su Kubernetes? Ottimo!
