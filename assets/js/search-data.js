@@ -72,15 +72,26 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-dove-pubblicare-tutorial-e-dispense-informatica",
+            },{id: "post-dove-pubblicare-i-tuoi-tutorial-e-dispense-di-informatica",
         
-          title: "Dove_pubblicare_tutorial_e_dispense_informatica",
+          title: "Dove pubblicare i tuoi tutorial e dispense di informatica",
+        
+        description: "this is what advanced image components could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Dove_pubblicare_tutorial_e_dispense_informatica/";
+          
+        },
+      },{id: "post-online-latex-editor",
+        
+          title: "Online_latex_editor",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/Dove_pubblicare_tutorial_e_dispense_informatica/";
+            window.location.href = "/blog/2025/Online_latex_editor/";
           
         },
       },{id: "post-a-post-with-plotly-js",
