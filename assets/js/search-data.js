@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-dove-pubblicare-tutorial-e-dispense-informatica",
+        
+          title: "Dove_pubblicare_tutorial_e_dispense_informatica",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Dove_pubblicare_tutorial_e_dispense_informatica/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
