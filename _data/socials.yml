@@ -53,6 +53,6 @@ scopus_id: 57259757300 # your profile on Scopus
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://lh3.googleusercontent.com/sitesv/AAzXCkemmjm1hGP5FugvR-KaU_OtVAmN7uCw-YA0YsGmxYGlbK_llW7XBtaJl68cc5ALdYpB3ZzPDLq2s4EnTAI9pcTW_Yq91y3Cv31herofApMznj6Ne-jZhoUxWUnBV6owpC81VqWNHZ9LqtAp7hMdF0ivwHAdrCrqKq-XwI1HeW-SWWBN2w2_QVBZSU8=w16383 # can be png, svg, jpg
+  logo: assets/img/emerlab_logo.png # can be png, svg, jpg
   title: Electronic MEasurements Research Laboratory (EMERLab)
   url: https://emerlab.ing.unipg.it/
