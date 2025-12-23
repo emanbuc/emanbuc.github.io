@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dove pubblicare i tuoi tutorial e dispense di informatica
-date: 2025-07-11 11:46:00
-description: this is what advanced image components could look like
+date: 2025-10-03 11:46:00
+description: piattaforma online dove pubblicare tutorial, dispense e risultati di ricerca
 tags: preprint openaccess
 categories: research
 # thumbnail: assets/img/9.jpg
