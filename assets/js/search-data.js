@@ -391,6 +391,105 @@ ninja.data = [{
             window.location.href = "/blog/2021/distill/";
           
         },
+      },{id: "post-azureml-exeperiments",
+        
+          title: "Azureml_exeperiments",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/AzureML_Exeperiments/";
+          
+        },
+      },{id: "post-azure-machine-learning",
+        
+          title: "Azure_machine_learning",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/Azure_Machine_Learning/";
+          
+        },
+      },{id: "post-azureml-automated-machine-learning",
+        
+          title: "Azureml_automated_machine_learning",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/AzureML_Automated_Machine_Learning/";
+          
+        },
+      },{id: "post-create-azure-sql-db-from-data-export",
+        
+          title: "Create Azure Sql Db From Data Export",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/create-azure-sql-db-from-data-export/";
+          
+        },
+      },{id: "post-hyperparameter-tuning",
+        
+          title: "Hyperparameter Tuning",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/Hyperparameter-tuning/";
+          
+        },
+      },{id: "post-differential-privacy",
+        
+          title: "Differential_privacy",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/Differential_Privacy/";
+          
+        },
+      },{id: "post-big-data-meet-ml",
+        
+          title: "Big_data_meet_ml",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/big_data_meet_ml/";
+          
+        },
+      },{id: "post-machine-learning-and-big-data",
+        
+          title: "Machine_learning_and_big_data",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/Machine_Learning_And_Big_Data/";
+          
+        },
+      },{id: "post-ai-at-scale",
+        
+          title: "Ai_at_scale",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/AI_at_scale/";
+          
+        },
       },{id: "post-a-post-with-twitter",
         
           title: "a post with twitter",
