@@ -94,6 +94,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/Dove_pubblicare_tutorial_e_dispense_informatica/";
           
         },
+      },{id: "post-hosting-a-personal-website-on-github-pages",
+        
+          title: "Hosting a Personal Website on GitHub Pages",
+        
+        description: "I recently decided to refresh my personal website. Since I prefer to avoid server and hosting maintenance, GitHub Pages is my go-to solution.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/hosting-website-github/";
+          
+        },
       },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
