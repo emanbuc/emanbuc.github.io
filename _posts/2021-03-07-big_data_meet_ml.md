@@ -1,10 +1,20 @@
+---
+layout: post
+title: Machine Learning (ML) Meets Big Data
+date: 2021-03-07 10:08:00
+description: data represents a gold mine in terms of commercial value and also important reference material for policy makers. But much of this value will stay unexploited until the tools for processing the huge amount of information remain unavailable
+tags: AI ML BigData
+categories: research AI ML BigData
+#thumbnail: assets/img/azure_ml_01-02-workspace.png
+---
+
 # Machine Learning (ML) Meets Big Data
 
 In the past few years, more data has been produced than whole human history before. This data represents a gold mine in terms of commercial value and also important reference material for policy makers. But much of this value will stay unexploited until the tools for processing the huge amount of information remain unavailable
 
 ## What is Machine Learning?
 
-The core of machine learning consists of self-learning algorithms that evolve by continuously improving at their assigned task. W
+The core of machine learning consists of self-learning algorithms that evolve by continuously improving at their assigned task.
 Algorithms fine-tune themselves with the data they train on. They build their own logic and, as a result, create solutions relevant to aspects of our world as diverse as fraud detection, web searches, tumor classification, object recognition and price prediction.
 
 ## What is Big Data?

@@ -1,4 +1,14 @@
-# Hyperparameter Tuning
+---
+layout: post
+title: Azure Machine Learning - Hyperparameter Tuning
+date: 2021-03-09 09:08:00
+description: The choice of hyperparameter values can significantly affect the resulting model, making it important to select the best possible values.
+tags: Azure ML MLOPs
+categories: research Azure AI ML
+#thumbnail: assets/img/azure_ml_01-02-workspace.png
+---
+
+# Azure Machine Learning - Hyperparameter Tuning
 
 In machine learning, models are trained to predict unknown labels for new data based on correlations between known labels and features found in the training data. Depending on the algorithm used, you may need to specify hyperparameters to configure how the model is trained.
 

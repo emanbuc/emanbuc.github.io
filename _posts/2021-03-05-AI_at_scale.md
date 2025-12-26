@@ -1,3 +1,13 @@
+---
+layout: post
+title: Machine Learning (ML) Meets Big Data
+date: 2021-03-05 12:10:00
+description: Over the past years, large deep learning language models (LM) with billions of parameters have improved the state-of-the-art in nearly every DL application.
+tags: AI ML 
+categories: research AI ML 
+#thumbnail: assets/img/azure_ml_01-02-workspace.png
+---
+
 # AI At Scale
 
 Over the past years, large deep learning language models (LM) with billions of parameters have improved the state-of-the-art in nearly every DL application. In particular there are many progress in natural language processing (NLP) field.

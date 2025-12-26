@@ -1,3 +1,13 @@
+---
+layout: post
+title: Migrate an existing SQL database from local server to Azure SQL
+date: 2021-03-05 12:10:00
+description: There are specific tools you can use to migrate an existing database to Azure SQL.
+tags: SQL Azure DB 
+categories:  Azure DB 
+#thumbnail: assets/img/azure_ml_01-02-workspace.png
+---
+
 # Create a New Azure SQL Database from Data Tier Application Export
 
 If you want to migrate an existing SQL database from local server to Azure SQL  the old style backup and restore with *.back file can not be used with Azure SQL managed database. Also the newer Import/Export Data Tier application may fails depending on the PK /FK present into the tables.

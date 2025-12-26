@@ -1,4 +1,14 @@
-# Differential Pryvacy
+---
+layout: post
+title: Differential Privacy
+date: 2021-04-09 10:05:00
+description: Differential privacy is a leading edge approach that enables useful analysis while protecting individually identifiable data values
+tags: privacy ML
+categories: research privacy ML
+thumbnail: /assets/img/smart-noise-sdk-main-graphic.png
+---
+
+# Differential Privacy
 
 Data scientists have an ethical (and often legal) responsibility to protect sensitive data. Differential privacy is a leading edge approach that enables useful analysis while protecting individually identifiable data values.
 

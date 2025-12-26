@@ -1,15 +1,24 @@
+---
+layout: post
+title: Machine Learning and Big Data Course Outline
+date: 2021-03-08 10:08:00
+description: Machine Learning and Big Data lecture topics
+tags: AI ML BigData
+categories: Courses AI ML BigData
+#thumbnail: assets/img/azure_ml_01-02-workspace.png
+---
 # Machine Learning and Big Data
 
 ## Table of Content
 
-- [Big Data Meet ML](2021-03-08-big_data_meet_ml.html)
+- [Big Data Meet ML](2021-03-07-big_data_meet_ml.html)
   - What is ML
   - What is Big Data
   - For Big Data Analysis we need Machine Learning
   - For ML we need Big Data
   - ML for data analysis in physics and other sciences
 
-- [AI at Scale](2021-03-08-AI_at_scale.html)
+- [AI at Scale](2021-03-05-AI_at_scale.html)
 
 - ML on Big Data
   - Big Data -> Big Opportunities

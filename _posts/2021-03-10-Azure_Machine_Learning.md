@@ -1,3 +1,13 @@
+---
+layout: post
+title: Azure Machine Learning
+date: 2021-03-10 11:15:00
+description: Azure Machine Learning is a cloud-based platform for building and operating machine learning solutions in Azure.
+tags: Azure ML MLOPs
+categories: research Azure AI ML
+thumbnail: assets/img/azure_ml_01-02-workspace.png
+---
+
 # Azure Machine Learning
 
 Azure Machine Learning is a cloud-based platform for building and operating machine learning solutions in Azure. It includes a wide range of features and capabilities that help data scientists prepare data, train models, publish predictive services, and monitor their usage. Most importantly, it helps data scientists increase their efficiency by automating many of the time-consuming tasks associated with training models; and it enables them to use cloud-based compute resources that scale effectively to handle large volumes of data while incurring costs only when actually used.
