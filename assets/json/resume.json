@@ -32,7 +32,52 @@
       "endDate": "Present",
       "summary": "Analysis, design and development of web applications for private companies and public bodies with Java Enterprise technology, Spring, .Net, .Net Core, single page application JavaScript (Angular); relational databases and NoSQL. Cloud-based solutions (Microsoft Azure, Google cloud, Amazon AWS). Design and development of IT systems and Internet of Things (IoT) solutions for industrial applications. Data science, machine learning and artificial intelligence projects. Definition of the software development process and company standards for quality management (ISO 9000) and information security (ISO 27000).",
       "highlights": ["HR management platform", "IoT solutions", "Cloud-native applications"]
-    }
+    },
+    {
+      "name": "Pegaso 2000 S.r.l.",
+      "position": "Software Developer",
+      "url": "https://www.pegaso2000.it",
+      "startDate": "2014-06",
+      "endDate": "2016-07",
+      "summary": "Analysis, design and development of web applications for private companies and public bodies with Java Enterprise technology, Spring, .Net, single page application JavaScript (AngularJS, jQuery, jQueyUI); relational databases (SQL Server, Oracle)",
+      "highlights": ["Web application", "Relational Database", "Java Enterprise"]
+    },
+    {"name":"Gianos Consulting S.r.l.",
+     "position":"Software Developer / CRM Consultant",
+     "url":"https://www.gianos.it",
+     "startDate":"2011-02",
+     "endDate":"2014-06",
+     "summary":"Design and development of web and mobile applications for private businesses and government bodies, leveraging REST and SOAP web services, ASP.NET, Java8/JavaEE/Spring4, JavaScript single-page frameworks (AngularJS, jQuery, jQueryUI), Oracle and SQL Server databases, CRM solutions with Sage SalesLogix, and business intelligence/reporting tools such as Crystal Reports XI and Microsoft Reporting Service.",
+     "highlights":["Web and Mobile Applications", "CRM Solutions", "Business Intelligence"]
+    },
+    {
+      "name": "Eles Semiconductor Equipment",
+      "position": "Product Manager",
+      "url": "https://www.eles.com",
+      "startDate": "2008-10",
+      "endDate": "2011-01",
+      "summary": "Managed the life cycle of software and firmware products, including requirements analysis, feasibility studies for new products, and defining roadmaps for existing product evolution. Responsible for technical and marketing documentation, as well as training on software products and developing course materials.",
+      "highlights": [
+        "Product life cycle management",
+        "Requirements analysis",
+        "Roadmap definition",
+        "Technical and marketing documentation",
+        "Training and course materials"
+      ]
+  },
+  {
+    "name": "Eles Semiconductor Equipment",
+    "position": "Software Engineer",
+    "url": "https://www.eles.com",
+    "startDate": "2007-01",
+    "endDate": "2008-10",
+    "summary": "Designed and developed software products using the Microsoft .NET platform, C#, and Visual C++. Defined development processes based on ISO9000 and CMMI quality management models.",
+    "highlights": [
+      ".NET software development",
+      "C# and Visual C++",
+      "Quality management (ISO9000, CMMI)"
+    ]
+  }
 
   ],
   "volunteer": [
