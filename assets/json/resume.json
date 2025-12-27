@@ -84,6 +84,58 @@
 
   ],
   "education": [
+ {
+  "institution": "University of Perugia, Department of Engineering",
+  "url": "https://ing.unipg.it/dipartimento",
+  "area": "Industrial and Information Engineering",
+  "studyType": "PhD",
+  "startDate": "2020-11",
+  "endDate": "2024-04",
+  "thesis": "UNCERTAINTY AWARE MACHINE LEARNING BASED MEASUREMENT SYSTEMS",
+  "courses": [
+    "Instrumentation & Measurement",
+    "Measurement tools and methods based on artificial intelligence",
+    "Machine learning",
+    "Computer vision",
+    "Gesture recognition",
+    "Battery state of charge estimation",
+    "AI-based systems characterization"
+  ]
+}, 
+{
+  "institution": "Università degli Studi E-Campus",
+  "url": "https://www.uniecampus.it/",
+  "area": "Business Administration",
+  "studyType": "Master of Business Administration (MBA) - Italian \"Master Universitario di Secondo Livello\"",
+  "startDate": "2010-06",
+  "endDate": "2011-11"
+},
+ {
+  "institution": "Università degli Studi di Perugia",
+  "area": "Computer Engineering",
+  "studyType": "Master of Engineering (MEng) - Italian \"Laurea Specialistica in Ingegneria Informatica\"",
+  "startDate": "2004",
+  "endDate": "2006",
+  "score": "110/110 with honors",
+  "thesis": "DESIGN OF AN INTEGRATED DEVELOPMENT ENVIRONMENT FOR TESTING OF ELECTRONIC DEVICES"
+}, 
+{
+  "institution": "Università degli Studi di Perugia",
+  "area": "Information Technology Engineering",
+  "studyType": "Bachelor of Science (BS) - Italian \"Laurea in Ingegneria dell’Informazione\"",
+  "startDate": "2000",
+  "endDate": "2004",
+  "score": "109/110",
+  "thesis": "REALIZATION OF A TOOL FOR THE CONTROL OF SOFTWARE QUALITY"
+},
+{
+  "institution": "Liceo Statale Jacopone da Todi",
+  "area": "Scientific High School. Italian \"Liceo scientifico con sperimentazione PNI\"",
+  "studyType": "High School Diploma",
+  "startDate": "1995",
+  "endDate": "2000",
+  "score": "100/100"
+}
 
   ],
   "awards": [
