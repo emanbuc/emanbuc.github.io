@@ -15,6 +15,24 @@
     ]
   },
   "work": [
+      {
+      "name": "University of Perugia - Department of Engineering - Electronic MEasurements Research Laboratory (EMELab)",
+      "position": "Research Affiliate",
+      "url": "https://emerlab.ing.unipg.it",
+      "startDate": "2024-10",
+      "endDate": "Present",
+      "summary": "Research activities in the field of software engineering, machine learning and artificial intelligence. Focus on uncertainty quantification in machine learning-based systems and dependable AI applications.",
+      "highlights": ["Uncertainty quantification","Instrumentation & Measurement", "Sustainable AI" , "Dependable AI"]
+    },
+    {
+      "name": "Smartpeg S.r.l.",
+      "position": "Chief Technology Officer (CTO)",
+      "url": "https://www.smartpeg.eu",
+      "startDate": "2016-07",
+      "endDate": "Present",
+      "summary": "Analysis, design and development of web applications for private companies and public bodies with Java Enterprise technology, Spring, .Net, .Net Core, single page application JavaScript (Angular); relational databases and NoSQL. Cloud-based solutions (Microsoft Azure, Google cloud, Amazon AWS). Design and development of IT systems and Internet of Things (IoT) solutions for industrial applications. Data science, machine learning and artificial intelligence projects. Definition of the software development process and company standards for quality management (ISO 9000) and information security (ISO 27000).",
+      "highlights": ["HR management platform", "IoT solutions", "Cloud-native applications"]
+    }
 
   ],
   "volunteer": [
