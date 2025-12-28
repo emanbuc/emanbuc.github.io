@@ -1,7 +1,7 @@
 github_users:
   - emanbuc
 
-repo_description_lines_max: 3
+repo_description_lines_max: 2
 
 github_repos:
   - emanbuc/winserver2022-asp
