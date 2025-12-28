@@ -142,7 +142,65 @@
 
   ],
   "certificates": [
+    {
+      "name":"Future AWS AI Scientist Nanodegree",
+      "date":"Nov 2025",
+      "issuer":"Udacity & Amazon Web Services (AWS)",
+      "icon":"fa-brands fa-udacity fa"
+    },
+    {"name":"Introducing Generative AI with AWS",
+     "date":"Aug 2025",
+     "issuer":"Amazon Web Services (AWS) , Udacity",
+     "url":"https://www.aws.training/certification",
+     "icon":"fa-brands fa-aws fa-udacity "
+    },
+    {"name":"Introductory Certificate in Project Management",
+     "date":"Dec 2023",
+     "issuer":"International Project Management Association (IPMA)",
+     "icon":"fa-solid fa-certificate"
+    },
+    {
+      "name": "Oxford Machine Learning Summer school OxML 2022 certificate",
+      "date": "Aug 2022",
+      "issuer": "AI for Global Goals",
+      "url": "https://www.oxfordml.school",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {"name":"AWS Machine Learning Foundations ",
+     "date":"Oct 2021",
+     "issuer":"Amazon Web Services (AWS) , Udacity",
+     "icon":"fa-brands fa-aws fa-udacity "
+    },
 
+    {"name":"Machine Learning Engineer with Microsoft Azure Nanodegree ",
+     "date":"Jan 2021",
+     "issuer":"Udacity & Microsoft",
+     "icon":"fa-brands fa-udacity fa-microsoft"
+    },
+    {
+      "name": "Microsoft Certified: Azure AI Fundamentals",
+      "date": "Oct 2020",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/",
+      "icon": "fa-brands fa-microsoft"
+    },
+    {"name":"AI Product Manager Nanodegree",
+     "date":"Aug 2020",
+     "issuer":"Udacity",
+     "icon":"fa-brands fa-udacity"},
+  {
+      "name": "Microsoft Professional Programs Certificate in Data Science",
+      "date": "May 2019",
+      "issuer": "Microsoft , Edx.org",
+      "icon": "fa-brands fa-microsoft"
+    },
+    {
+      "name": "Scrum Foundamentals Certified (SFC)",
+      "date": "Aug 2014",
+      "issuer": "Scrumstudy",
+      "url": "https://www.scrumstudy.com/certification/scrum-fundamentals-certified",
+      "icon": "fa-solid fa-location-dot"
+    }
   ],
   "publications": [
 
@@ -151,6 +209,16 @@
 
   ],
   "languages": [
+        {
+      "language": "Italian",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent (C1/B2)",
+      "icon": ""
+    }
 
   ],
   "interests": [
