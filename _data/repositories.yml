@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - emanbuc
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - emanbuc/winserver2022-asp
+  - emanbuc/asp.net481-crystal
+  - emanbuc/ASL-Recognition-Deep-Learning 
+  - emanbuc/ultrasonic-vision
+  - electrical-and-electronic-measurement/LiBEIS
+  - electrical-and-electronic-measurement/EasyEIS-with-SMU
+  - electrical-and-electronic-measurement/state-of-charge-with-EIS-and-CNN
+  - electrical-and-electronic-measurement/ml-4-measurement 
