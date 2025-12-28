@@ -146,13 +146,13 @@
       "name":"Future AWS AI Scientist Nanodegree",
       "date":"Nov 2025",
       "issuer":"Udacity & Amazon Web Services (AWS)",
-      "icon":"fa-brands fa-udacity fa"
+      "icon":"fa-brands fa-aws"
     },
     {"name":"Introducing Generative AI with AWS",
      "date":"Aug 2025",
      "issuer":"Amazon Web Services (AWS) , Udacity",
      "url":"https://www.aws.training/certification",
-     "icon":"fa-brands fa-aws fa-udacity "
+     "icon":"fa-brands fa-aws"
     },
     {"name":"Introductory Certificate in Project Management",
      "date":"Dec 2023",
@@ -169,13 +169,13 @@
     {"name":"AWS Machine Learning Foundations ",
      "date":"Oct 2021",
      "issuer":"Amazon Web Services (AWS) , Udacity",
-     "icon":"fa-brands fa-aws fa-udacity "
+     "icon":"fa-brands fa-aws"
     },
 
     {"name":"Machine Learning Engineer with Microsoft Azure Nanodegree ",
      "date":"Jan 2021",
      "issuer":"Udacity & Microsoft",
-     "icon":"fa-brands fa-udacity fa-microsoft"
+     "icon":"fa-brands fa-microsoft"
     },
     {
       "name": "Microsoft Certified: Azure AI Fundamentals",
@@ -187,7 +187,7 @@
     {"name":"AI Product Manager Nanodegree",
      "date":"Aug 2020",
      "issuer":"Udacity",
-     "icon":"fa-brands fa-udacity"},
+     "icon":"fa-solid fa-location-dot"},
   {
       "name": "Microsoft Professional Programs Certificate in Data Science",
       "date": "May 2019",
