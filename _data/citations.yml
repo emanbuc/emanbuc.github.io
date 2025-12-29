@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2025-12-29'
 papers:
   S-8t8JMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -58,7 +58,7 @@ papers:
     title: Gesture recognition of sign language alphabet using a magnetic positioning system
     year: '2021'
   S-8t8JMAAAAJ:eQOLeE2rZwMC:
-    citations: 125
+    citations: 126
     title: Battery SOC estimation from EIS data based on machine learning and equivalent circuit model
     year: '2023'
   S-8t8JMAAAAJ:hqOjcs7Dif8C:
