@@ -21,7 +21,7 @@
       "url": "https://emerlab.ing.unipg.it",
       "startDate": "2024-10",
       "endDate": "Present",
-      "summary": "Research activities in the field of software engineering, machine learning and artificial intelligence. Focus on uncertainty quantification in machine learning-based systems and dependable AI applications.",
+      "summary": "Research activities in the field of instrumentation & measurement, software engineering, machine learning and artificial intelligence. Focus on uncertainty quantification in machine learning-based systems and dependable AI applications.",
       "highlights": ["Uncertainty quantification","Instrumentation & Measurement", "Sustainable AI" , "Dependable AI"]
     },
     {
@@ -160,10 +160,38 @@
      "icon":"fa-solid fa-certificate"
     },
     {
-      "name": "Oxford Machine Learning Summer school OxML 2022 certificate",
+      "name": "Oxford Machine Learning Summer school OxML 2022",
       "date": "Aug 2022",
       "issuer": "AI for Global Goals",
       "url": "https://www.oxfordml.school",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "name": "PRACE Winter School 2021-Converging HPC Infrastructure & Methodologies; ",
+      "date": "2021",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+      "name": " IfI Summer School 2021",
+      "issuer": "Institute of Informatics, University of Zurich",
+      "date": "2021",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+        {
+      "name": "International PhD School “Italo Gorini 2021",
+      "date": "2021",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+        {
+      "name": "IEEE SPS Summer School 2021 – From Machine Learning to Deep Learning. A Computer Vision Perspective",
+      "date": "2021",
+      "issuer": "IEEE Signal Processing Society",
+      "icon": "fa-solid fa-graduation-cap"
+    },
+        {
+      "name": "2nd IEEE Winter School on Fog/Edge Computing 2020",
+      "date": "2020",
+      "issuer": "IEEE",
       "icon": "fa-solid fa-graduation-cap"
     },
     {"name":"AWS Machine Learning Foundations ",
@@ -171,7 +199,6 @@
      "issuer":"Amazon Web Services (AWS) , Udacity",
      "icon":"fa-brands fa-aws"
     },
-
     {"name":"Machine Learning Engineer with Microsoft Azure Nanodegree ",
      "date":"Jan 2021",
      "issuer":"Udacity & Microsoft",
