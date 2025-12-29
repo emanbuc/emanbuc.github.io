@@ -39,11 +39,12 @@ In 2024, I completed my **Ph.D. in Industrial and Information Engineering** at t
 
 ### Technical Expertise
 
-Beyond my primary focus on AI and ML, I have a broad interest in the modern software ecosystem, including:
+Beyond AI and ML, I have a broad interest in the modern software ecosystem, including:
 
 * **Cloud Computing & Cloud-native Architectures**
 * **DevOps & Cybersecurity**
 * **Internet of Things (IoT)**
 * **Software Quality & Characterization**
+* **Software Engineering** 
 
 I am an active member of the **ACM** and the **IEEE** (Computer Society and Instrumentation & Measurement Society), staying at the forefront of the global conversation on reliable technology.
