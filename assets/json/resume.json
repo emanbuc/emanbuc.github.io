@@ -139,6 +139,19 @@
 
   ],
   "awards": [
+    {
+      "title": "Best Application Award",
+      "date": "2021",
+      "awarder": "Gorini PhD School 2021",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "Gesture Recognition of Sign Language Alphabet using a Magnetic Positioning System and Convolutional Neural Network."
+    },
+    {
+      "title": "Certificate of Merit - Top Three Projects",
+      "date": "2021",
+      "awarder": "IEEE SPS Summer School 2021",
+      "summary": "Object detection and tracking with OpenCV and deep learning models."
+    }
 
   ],
   "certificates": [
