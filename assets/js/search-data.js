@@ -52,7 +52,18 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-07-11-Online_latex_editor/";
+            window.location.href = "/blog/2026/2026-01-01-progetto-creare-un-libro/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
       },{id: "post-dove-pubblicare-i-tuoi-tutorial-e-dispense-di-informatica",
