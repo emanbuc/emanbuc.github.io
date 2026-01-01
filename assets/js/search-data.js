@@ -52,18 +52,18 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-01-01-progetto-creare-un-libro/";
+            window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
-      },{id: "post-",
+      },{id: "post-creare-un-libro-in-famiglia-molto-più-di-un-gioco",
         
-          title: "",
+          title: "Creare un libro in famiglia. Molto più di un gioco",
         
-        description: "",
+        description: "Avete mai pensato di trasformare i racconti della buonanotte o i disegni sparsi sul tavolo in un vero libro? Recentemente abbiamo organizzato un laboratorio creativo familiare che si è concluso con una pubblicazione reale.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
+            window.location.href = "/blog/2026/progetto-creare-un-libro/";
           
         },
       },{id: "post-dove-pubblicare-i-tuoi-tutorial-e-dispense-di-informatica",
