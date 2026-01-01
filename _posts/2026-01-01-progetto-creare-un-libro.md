@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creare un libro in famiglia: molto più di un gioco
-date: 2026-01-01 16:35:00
+date: 2026-01-01 12:30:00
 description: Avete mai pensato di trasformare i racconti della buonanotte o i disegni sparsi sul tavolo in un vero libro? Recentemente abbiamo organizzato un laboratorio creativo familiare che si è concluso con una pubblicazione reale.
 tags: writing content creation project
 categories: writing

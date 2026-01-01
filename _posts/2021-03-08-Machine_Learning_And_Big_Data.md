@@ -11,14 +11,14 @@ categories: Courses AI ML BigData
 
 ## Table of Content
 
-- [Big Data Meet ML](2021-03-07-big_data_meet_ml.html)
+- Big Data Meet ML
   - What is ML
   - What is Big Data
   - For Big Data Analysis we need Machine Learning
   - For ML we need Big Data
   - ML for data analysis in physics and other sciences
 
-- [AI at Scale](2021-03-05-AI_at_scale.html)
+- AI at Scale
 
 - ML on Big Data
   - Big Data -> Big Opportunities
