@@ -24,14 +24,12 @@ Per arrivare al risultato finale, abbiamo seguito un percorso strutturato:
 5. **Revisione delle bozze:** Un esercizio di attenzione e lettura critica per individuare refusi, errori di impaginazione e valutare possibili alternative.
 6. **Distribuzione e pubblicazione:** Scegliere canale e modalità di pubblicazione e distribuzione si è rivelato più impegnativo del previsto. Le opzioni sono numerose e abbiamo imparato molto.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/assets/img/processo_creazione_libro_con_bambini.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    LE sei fasi principali del processo di creazione.
-</div>
+{% include figure.liquid 
+    path="assets/img/processo_creazione_libro_con_bambini.png" 
+    title="Optional hover title" 
+    caption="Figure 1: Le sei fasi principali del processo di creazione che abbiamo seguito." 
+    zoomable=true 
+%}
 
 ## 💡 Competenze e Decisioni Strategiche
 
