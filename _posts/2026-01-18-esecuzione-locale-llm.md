@@ -13,7 +13,35 @@ Questa transizione è stata resa possibile dalla convergenza di tre fattori crit
 
 L'esecuzione locale di LLM è diventata un'imperativo strategico per le organizzazioni che intendono mantenere la sovranità sui propri dati, ottimizzare i costi operativi e garantire la continuità del servizio in assenza di connettività internet.  Per supportare carichi di lavoro elevati in contesti aziendali (molti utenti e numero richieste di inferenza anche contemporanee) è ncessario disporre di compenti hardware specifiche, dove la larghezza di banda della memoria e la VRAM della GPU risultano cruciali per garantire prestazioni accettabili. In questo articolo ci occupermo però solo dello scenario di utilizzo "personale" (singolo utente) e per un utilizzo personale un notebook recente con 16/32GB di RAM o un Mac Mini possono esserre già sufficienti.
 
-## 1. Requisiti Hardware
+## 1. Installazione ed Esecuzione in Locale di un LLM
+I modelli LLM non sono eseguibili autonomi ma vengono gestiti da un motore di inferenza. Tipicamente i modelli sono sviluppati con framework come TensorFlow, PyTorch o altri, che includono anche gli strumenti per il caricamento di un modello pre-addestrato e permettono di utilizzarlo per per operazioni di inferenze. Il motore di esecuzione gestisce l’allocazione della memoria, e le operazioni di calcolo distribuito su CPU o GPU. Per utilizzare un LLM (ma anche un altro qualsiasi altro modello di machine learning) in genere servono quattro elementi:
+
+1. Un modello (cioè la struttura del modello) 
+2. I "pesi" generati dal processo di addestramento. In pratica si tratta dei valori numerici che alla fine del processo di addestramento sono stati assegnati ai parametri del modello. Un modello (architettura) dotato di 70B (Bilions= migliardi) di parametri prevede 70B di "pesi" (valori da assegnare ai suoi parametri). Quando si *scarica* un modello in pratica si scarica il file con pesi (valori) da assegnare a tutti i parametri oltre che la struttura del modello con i parametri non valorizzati.
+3. Un motore di inferenza. A volte può essere lo stesso usato per l'addestramento, ma può essere anche diverso e specializzato solo per l'inferenza come ad esempio Llama.cpp
+4. Hardware con risorse di calcolo sufficienti per il caricamento e l'esecuzione del modello
+
+Ad esempio è possibile eseguire modelli pre-addestrati usanto da Libreria ([Transfromer ](https://huggingface.co/docs/transformers/model_doc/llama3)) di HugginFace in Python 
+
+```python
+import transformers
+import torch
+
+model_id = "meta-llama/Meta-Llama-3-8B"
+
+pipeline = transformers.pipeline("text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto")
+pipeline("Hey how are you doing today?")
+
+```
+
+Per un utilizzo al difuori dell'ambiente di sviluppo è solitamente preferibile utilizzare utilizzare dei motori di inferenza dedicati che permettono una maggiore efficienza nell'utilizzo delle risosrse di calcolo.
+
+I modelli (architettura e pesi) sono disponibili in vari formati. Negli ultimi anni si è affermato il formato [GUFF](https://huggingface.co/docs/hub/gguf) per la distribuzione di modelli complessi. La cosa importante è che il formato sia compatibile con il modete di inferenza utilizzato! 
+
+I motori di inferemza dispongono solitamente di una libreria di modelli già preparata nel formato ottimale per lo specifico motore. La confersione è possibile, ma si tratta di un processo che può nascondere delle insidie e sicuramente da evitare durante i primi esperimenti con gli LLM.
+
+
+## 2. Requisiti Hardware
 Sebbene gli LLM siano nati per girare su server potenti, l'hardware consumer attuale (2025/2026) può gestire modelli di dimensioni contenute con prestazioni soddisfacenti.
 
 *   **Memoria RAM/VRAM:** È il fattore più critico. Se il modello risiede interamente nella memoria video (**VRAM**) della scheda grafica (GPU), l'esecuzione è da 5 a 20 volte più rapida rispetto alla RAM di sistema.
@@ -23,14 +51,14 @@ Sebbene gli LLM siano nati per girare su server potenti, l'hardware consumer att
 *   **Scheda Video (GPU):** Le schede **NVIDIA RTX** (serie 3000/4000/5000) sono lo standard grazie al supporto CUDA. Una GPU con **8GB-12GB di VRAM** (come la RTX 3060 o 4060) è ideale per un'esperienza fluida con modelli medi.
 *   **Processore (CPU):** Se non si dispone di una GPU dedicata, è necessaria una CPU moderna (almeno 11ª gen Intel o AMD Zen 4) con supporto alle istruzioni **AVX-512** per accelerare i calcoli.
 
-## 2. L'importanza della Quantizzazione
+## 3. L'importanza della Quantizzazione
 Senza compressione, un modello da 7 miliardi di parametri richiederebbe circa 14-16 GB di VRAM, risultando inaccessibile per hardware standard. La **quantizzazione** riduce la precisione numerica dei pesi del modello (es. da 16-bit a 4-bit) senza comprometterne drasticamente l'intelligenza.
 
 Il formato **Q4_K_M** (4-bit) è considerato il **"gold standard"** per l'uso locale: riduce le dimensioni del modello del 75%, permettendo a un modello 7B di girare su soli 5-6 GB di VRAM con una perdita di qualità trascurabile.
 
-Il tema dei formati dei modelli e della quantizzaizone è ampio e lo approfondiremo in un altra occasione. 
+Il tema dei formati dei modelli e della quantizzazione è ampio e lo approfondiremo in un altra occasione. 
 
-## 3. Strumenti Software Principali
+## 4. Strumenti Software Principali
 Esistono diverse piattaforme che riducono il processo di installazione e configuraizone a pochi click. La piattaforma di esecuzione più performante per un utilizzo personale è sicuramente [Llama.cpp](https://github.com/ggml-org/llama.cpp).
 
 Llama.cpp è un'implementazione in puro C/C++ creata da Georgi Gerganov. La sua importanza risiede nel fatto che è stata la prima a dimostrare che i modelli linguistici di grandi dimensioni potevano girare in modo efficiente su hardware consumer (sia CPU che GPU) grazie a tecniche avanzate di quantizzazione e gestione della memoria. Supporta una vasta gamma di accelerazioni, tra cui CUDA (NVIDIA), Metal (Apple Silicon), ROCm (AMD) e Vulkan. 
@@ -69,7 +97,7 @@ Altri strumenti popolari per eseguire LLM in locale sono:
 *   **GPT4All:** Ottimizzato per girare su hardware modesto (anche solo CPU). Include la funzione **LocalDocs**, che permette di "chattare" con i propri documenti locali (PDF, Word) in modo semplice.
 
 
-## 4. Modelli Consigliati per Hardware Standard
+## 5. Modelli Consigliati per Hardware Standard
 Per un PC o notebook standard, suggerisco di iniziare con le versioni più piccole e quantizzate di queste famiglie di modelli:
 *   **Llama 3.2 (1B / 3B):** Ultra-leggeri, ideali per notebook con poca RAM.
 *   **Mistral (7B) / Llama 3.1 (8B):** I modelli più versatili per compiti generali e scrittura.
