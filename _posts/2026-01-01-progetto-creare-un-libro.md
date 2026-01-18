@@ -45,8 +45,6 @@ Vedere il proprio nome su una copertina e il libro disponibile per l'acquisto ac
 
 È una scelta di grande valore simbolico ed educativo. Se il digitale offre accessibilità e velocità, il **libro cartaceo** trasforma l'esperienza creativa in un **oggetto di memoria**.
 
-Ecco un'integrazione per il tuo racconto, focalizzata proprio sul contrasto tra l'immaterialità del digitale e la solidità del "fatto a mano".
-
 ## 📖 Perché abbiamo scelto la carta
 
 In un'epoca in cui tutto scorre velocemente su uno schermo, abbiamo deciso di **stampare il nostro libro.** Oltre alla versione e-book, "I Gatti e le Stagioni" è diventato un oggetto fisico, solido, da sfogliare. 
