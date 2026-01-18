@@ -85,6 +85,6 @@ OpenAI GPT-OSS (Agosto 2025) è il primo rilascio open-weight significativo di O
 
 -  La versione 120B rimane fuori dalla portata dei PC standard, richiedendo solitamente infrastrutture di classe enterprise.
 
-**In sintesi:** Per iniziare è sufficiente un notebook moderno con **16GB di RAM** (o acora meglio un Mackbook o un MacMini), scaricare **LM Studio** e provare un modello come **Llama 3.1 8B** in versione quantizzata a 4-bit. Se la memoria video non è sufficiente, questi strumenti sposteranno automaticamente parte del lavoro sulla RAM di sistema, sacrificando la velocità per garantire l'esecuzione.
+**In sintesi:** Per iniziare è sufficiente un notebook moderno con **16GB di RAM** (o acora meglio un Mackbook o un MacMini), scaricare **LM Studio** e provare un modello come **Mistral** o **Llama 3.1 8B** in versione quantizzata a 4-bit. Se la memoria video non è sufficiente, questi strumenti sposteranno automaticamente parte del lavoro sulla RAM di sistema, sacrificando la velocità per garantire l'esecuzione.
 
 Con un Mac Mini, equipaggiato con processore AppleSilicon serie M, si ottiene un rapporto prezzo/prestazioni sicuramente interessante e la possibilità di eseguire modelli di dimensione fino a 20B.
