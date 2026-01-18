@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
+      },{id: "post-eseguire-un-assistente-ai-basato-su-llm-in-locale",
+        
+          title: "Eseguire un assistente AI basato su LLM in locale",
+        
+        description: "L&#39;esecuzione di modelli di linguaggio di grandi dimensioni (LLM) in locale è diventata oggi una realtà pratica per utenti privati grazie alla maturazione di software intuitivi e a tecniche di compressione avanzate",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/esecuzione-locale-llm/";
+          
+        },
       },{id: "post-creare-un-libro-in-famiglia-molto-più-di-un-gioco",
         
           title: "Creare un libro in famiglia. Molto più di un gioco",
