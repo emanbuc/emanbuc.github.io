@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Eseguire un assistente AI basato su LLM in locale
-date: 2026-01-01 12:30:00
+date: 2026-01-18 12:30:00
 description: L'esecuzione di modelli di linguaggio di grandi dimensioni (LLM) in locale è diventata oggi una realtà pratica per utenti privati grazie alla maturazione di software intuitivi e a tecniche di compressione avanzate
 tags: LLM AI
 categories: AI 
@@ -53,6 +53,15 @@ Sebbene gli LLM siano nati per girare su server potenti, l'hardware consumer att
 
 ## 3. L'importanza della Quantizzazione
 Senza compressione, un modello da 7 miliardi di parametri richiederebbe circa 14-16 GB di VRAM, risultando inaccessibile per hardware standard. La **quantizzazione** riduce la precisione numerica dei pesi del modello (es. da 16-bit a 4-bit) senza comprometterne drasticamente l'intelligenza.
+
+Qualche esempio per capire l'effetto della quantizzazione:
+
+- FP32 precision: 4 byte per parameter. ==> A 30B model = 120 GB just for weights (before KV cache) and without metadata!.
+- FP16: 2 bytes/param → 60 GB for 30B.
+- Q8 (8-bit quant): ~1 byte/param → 30 GB for 30B.
+- Q4 (4-bit quant): ~0.5 bytes/param  → 15GB for 30B
+
+Oltre al file dei pesi, nel calcolo complessivo della memoria devono essere inclusi anche la cache KV ed i metadati che solitamente aggungono qualche altro GB al valore totale.
 
 Il formato **Q4_K_M** (4-bit) è considerato il **"gold standard"** per l'uso locale: riduce le dimensioni del modello del 75%, permettendo a un modello 7B di girare su soli 5-6 GB di VRAM con una perdita di qualità trascurabile.
 
