@@ -35,11 +35,13 @@ Esistono diverse piattaforme che riducono il processo di installazione e configu
 
 Llama.cpp è un'implementazione in puro C/C++ creata da Georgi Gerganov. La sua importanza risiede nel fatto che è stata la prima a dimostrare che i modelli linguistici di grandi dimensioni potevano girare in modo efficiente su hardware consumer (sia CPU che GPU) grazie a tecniche avanzate di quantizzazione e gestione della memoria. Supporta una vasta gamma di accelerazioni, tra cui CUDA (NVIDIA), Metal (Apple Silicon), ROCm (AMD) e Vulkan. 
 
-Molti (tutti?) strumenti popolari come Ollama, LM Studio e Jan utilizzano llama.cpp come motore di inferenza principale. Llama.cpp dispone però anche di una sua interfaccia a riga di comando, di una interfaccia web in stile ChatGPT e di un server che ne permette l'utilizzo da parte di altri client. Ad esempio per eseguire GPT-OSS su un Mac Mini con 16GB
+Llama.cpp dispone di una sua interfaccia a riga di comando, di una interfaccia web in stile ChatGPT e di un server che ne permette l'utilizzo anche da parte di altri client. 
+
+Ad esempio 
 
     llama-server -hf ggml-org/gpt-oss-20b-GGUF --n-cpu-moe 12 -c 32768 --jinja --no-mmap
 
-
+Avvia carica il modello GPT-OSS 20B ed avvia il server e l'interfaccia web.
 
 {% include figure.liquid 
     path="assets/img/llama-gpt-oss.png" 
@@ -57,9 +59,9 @@ Ovviamene il "peso" dell'esecuzione del modello si fa sentire e non permette di 
     zoomable=true 
 %}
 
-Altri strumenti molto popolari, che aggiungono un interfaccia utente più elaborata sopra Llama.cpp sacrificando però le prestazioni compessive. Ad esempio, sul Mac Mini M2 16GB con Llama.cpp il modello GPT-OSS 20B è utilizzabile, mentre con altri strumenti riesce a malapena ad avviarsi e poi è troppo lento per un qualsiasi utilizzo pratico interattivo. 
+Altri strumenti molto popolari, che aggiungono un interfaccia utente più elaborata sopra Llama.cpp sacrificando però le prestazioni compessive: la differenza tra Llama.cpp ed altri strumenti come Ollama è in alcuni casi è piuttosto evidente con Llama.cpp che è arriva ad essere anche un 30-40% più veloce degli altri strumenti. Ad esempio, sul mio Mac Mini M2 16GB con Llama.cpp il modello GPT-OSS 20B è utilizzabile, mentre con altri strumenti riesce a malapena ad avviarsi e poi è troppo lento per un qualsiasi utilizzo pratico interattivo. 
  
-Anche se personalmente consiglio di usare Llama.cpp, alcuni strumenti popolari sono:
+Altri strumenti popolari per eseguire LLM in locale sono:
 
 *   **LM Studio:** Forse la soluzione più accessibile per utenti non tecnici. Offre un'interfaccia grafica completa, un motore di ricerca integrato per scaricare modelli da Hugging Face e permette di visualizzare l'uso delle risorse in tempo reale.
 *   **Ollama:** Estremamente popolare tra gli utenti più esperti e gli sviluppatori. Funziona tramite riga di comando (CLI) ma può essere abbinato a interfacce web grafiche come **OpenWebUI** per un'esperienza simile a ChatGPT.
@@ -68,14 +70,16 @@ Anche se personalmente consiglio di usare Llama.cpp, alcuni strumenti popolari s
 
 
 ## 4. Modelli Consigliati per Hardware Standard
-Per un PC o notebook standard, si suggerisce di iniziare con queste famiglie di modelli (versioni quantizzate):
+Per un PC o notebook standard, suggerisco di iniziare con le versioni più piccole e quantizzate di queste famiglie di modelli:
 *   **Llama 3.2 (1B / 3B):** Ultra-leggeri, ideali per notebook con poca RAM.
 *   **Mistral (7B) / Llama 3.1 (8B):** I modelli più versatili per compiti generali e scrittura.
 *   **Qwen 2.5/3 (0.5B - 7B):** Eccellenti per il coding e compiti multilingue.
 *   **Phi-3/4 (Mini):** Modelli piccoli di Microsoft con capacità di ragionamento sorprendenti per la loro dimensione.
 
+Una volta testato il funzionamento di un modello di piccole dimensioni, vi consiglio di testare anche modelli più grandi fino a trovare il compromesso ottimale tra utilizzo delle risorse di calcolo disponibili e prestazioni.
+
 ### OpenAI GPT-OSS 
-OpenAI GPT-OSS è un'aggiunta fondamentale al panorama dei modelli locali, rappresentando il primo rilascio open-weight significativo di OpenAI dopo anni, avvenuto nell'agosto 2025. Il modello è disponibile principalmente nelle versioni 20B e 120B. La variante 120B, in particolare, offre prestazioni di livello GPT-4 ed eccelle in compiti di ragionamento avanzato, tool calling e workflow agentici complessi.
+OpenAI GPT-OSS (Agosto 2025) è il primo rilascio open-weight significativo di OpenAI dopo anni. Il modello è disponibile principalmente nelle versioni 20B e 120B. La variante 120B, in particolare, offre prestazioni di livello GPT-4 ed eccelle in compiti di ragionamento avanzato, tool calling e workflow agentici complessi.
 
 - La versione 20B è quella più indicata per hardware locale avanzato, ma richiede comunque una configurazione di fascia alta con almeno 32GB di RAM/VRAM per girare correttamente. *Sul mio Mac Mini Apple Silicon M2 con 16GB di RAM condivisa* si riesce ad eseguire usando LLAMA-CPP [seguendo la guida dedicata a GPT-OSS](https://github.com/ggml-org/llama.cpp/discussions/15396)
 
