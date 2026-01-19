@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
+      },{id: "post-certificazioni-di-sicurezza-informatica-entry-level",
+        
+          title: "Certificazioni di sicurezza informatica entry level",
+        
+        description: "certificazioni di sicurezza informatica entry level. Le opzioni disponibili iniziare a lavorare nella sicurezza informatica.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/certificazioni-sicurezza-entry-level/";
+          
+        },
       },{id: "post-eseguire-un-assistente-ai-basato-su-llm-in-locale",
         
           title: "Eseguire un assistente AI basato su LLM in locale",
