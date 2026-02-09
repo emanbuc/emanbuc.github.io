@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-02'
+  last_updated: '2026-02-09'
 papers:
   S-8t8JMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Practical broadband measurement of battery EIS
     year: '2021'
   S-8t8JMAAAAJ:9yKSN-GCB0IC:
-    citations: 73
+    citations: 74
     title: Uncertainty characterization of a practical system for broadband measurement of battery EIS
     year: '2022'
   S-8t8JMAAAAJ:IjCSPb-OGe4C:
@@ -38,7 +38,7 @@ papers:
     title: 'LiBEIS: A software tool for broadband electrochemical impedance spectroscopy of lithium-ion batteries'
     year: '2022'
   S-8t8JMAAAAJ:WF5omc3nYNoC:
-    citations: 33
+    citations: 32
     title: Uncertainty characterization of a CNN method for Lithium-Ion Batteries state of charge estimation using EIS data
     year: '2023'
   S-8t8JMAAAAJ:Y0pCki6q_DkC:
@@ -58,7 +58,7 @@ papers:
     title: Gesture recognition of sign language alphabet using a magnetic positioning system
     year: '2021'
   S-8t8JMAAAAJ:eQOLeE2rZwMC:
-    citations: 142
+    citations: 140
     title: Battery SOC estimation from EIS data based on machine learning and equivalent circuit model
     year: '2023'
   S-8t8JMAAAAJ:hqOjcs7Dif8C:
