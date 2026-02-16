@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-16'
 papers:
   S-8t8JMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -23,7 +23,7 @@ papers:
     year: '2024'
   S-8t8JMAAAAJ:Se3iqnhoufwC:
     citations: 4
-    title: Uncertainty Quantification in AI-Based Measurement Systems
+    title: Uncertainty quantification in AI-based measurement systems
     year: '2025'
   S-8t8JMAAAAJ:Tyk-4Ss8FVUC:
     citations: 7
@@ -31,14 +31,14 @@ papers:
     year: '2022'
   S-8t8JMAAAAJ:UebtZRa9Y70C:
     citations: 1
-    title: 'The right person in the right place: Teams created with a software tool are more successful, and people are more cooperative'
+    title: 'The Right Person in the Right Place: Teams Created with a Software Tool are More Successful, and People are More Cooperative'
     year: '2024'
   S-8t8JMAAAAJ:W7OEmFMy1HYC:
     citations: 9
     title: 'LiBEIS: A software tool for broadband electrochemical impedance spectroscopy of lithium-ion batteries'
     year: '2022'
   S-8t8JMAAAAJ:WF5omc3nYNoC:
-    citations: 32
+    citations: 33
     title: Uncertainty characterization of a CNN method for Lithium-Ion Batteries state of charge estimation using EIS data
     year: '2023'
   S-8t8JMAAAAJ:Y0pCki6q_DkC:
@@ -54,11 +54,11 @@ papers:
     title: Invisible Supply Chain Attacks Based on Trojan Source
     year: '2022'
   S-8t8JMAAAAJ:d1gkVwhDpl0C:
-    citations: 35
+    citations: 34
     title: Gesture recognition of sign language alphabet using a magnetic positioning system
     year: '2021'
   S-8t8JMAAAAJ:eQOLeE2rZwMC:
-    citations: 140
+    citations: 147
     title: Battery SOC estimation from EIS data based on machine learning and equivalent circuit model
     year: '2023'
   S-8t8JMAAAAJ:hqOjcs7Dif8C:
