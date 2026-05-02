@@ -1,13 +1,11 @@
 ---
 layout: post
-title: AI e l’illusione della qualità quando il plausibile non è il vero, ma solo allineamento
+title: Plausibile non significa vero
 date: 2026-05-01 22:30:00
-description: L'intelligenza artificiale genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale. Un'analisi su come l'AI impara a compiacere l'utente, confondendo plausibilità e verità, e perché questo rappresenta una sfida per il pensiero critico.
+description: L AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.
 tags: AI LLM RLHF
 categories: Tecnologia Riflessioni
 ---
-
-# L’AI e l’illusione della qualità: quando il plausibile non è il vero, ma solo allineamento.
 
 Gli agenti AI di oggi sono addestrati su un patrimonio immenso: tutto ciò che l’umanità ha prodotto in secoli di storia: testi, musica, immagini, codice. Ma c’è un dettaglio cruciale che spesso sfugge: **hanno imparato da un campione distorto**.
 
