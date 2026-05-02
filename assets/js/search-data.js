@@ -59,7 +59,7 @@ ninja.data = [{
         
           title: "Plausibile non significa vero",
         
-        description: "L AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.",
+        description: "L &#39;&#39;AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.",
         section: "Posts",
         handler: () => {
           
