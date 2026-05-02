@@ -2,7 +2,7 @@
 layout: post
 title: Plausibile non significa vero
 date: 2026-05-01 22:30:00
-description: L AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.
+description: L ''AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.
 tags: AI LLM RLHF
 categories: Tecnologia Riflessioni
 ---
