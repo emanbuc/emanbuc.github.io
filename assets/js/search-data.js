@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
+      },{id: "post-plausibile-non-significa-vero",
+        
+          title: "Plausibile non significa vero",
+        
+        description: "L AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/plausibile-vero-allineato/";
+          
+        },
       },{id: "post-certificazioni-di-sicurezza-informatica-entry-level",
         
           title: "Certificazioni di sicurezza informatica entry level",
