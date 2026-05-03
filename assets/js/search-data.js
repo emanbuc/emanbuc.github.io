@@ -55,11 +55,11 @@ ninja.data = [{
             window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
-      },{id: "post-plausibile-non-significa-vero",
+      },{id: "post-ai-e-l-u0027aiillusione-del-reale-plausibile-non-significa-vero",
         
-          title: "Plausibile non significa vero",
+          title: "AI e l\u0027AIillusione del reale. Plausibile non significa vero",
         
-        description: "L &#39;&#39;AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.",
+        description: "L\u0027AI genera output statisticamente perfetti, ma la qualità apparente non è sempre qualità reale.",
         section: "Posts",
         handler: () => {
           
