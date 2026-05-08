@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Umano o Sintetico? Il Valore di un Testo va Oltre la sua Origine*"
+title: "Umano o Sintetico? Il Valore di un Testo va Oltre la sua Origine"
 date: 2026-05-07 07:30:00
 description: "Un’analisi provocatoria su perché, nell’era dell’IA, il valore di un testo non dipende dalla sua origine (umana o sintetica), ma dalla sua capacità di essere utile, vero e impattante. Una riflessione su autenticità, responsabilità e il futuro della creazione di contenuti."
 tags: intelligenza-artificiale IA contenuti-digitali pregiudizi-tecnologici
