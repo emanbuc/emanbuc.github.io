@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
+      },{id: "post-umano-o-sintetico-il-valore-di-un-testo-va-oltre-la-sua-origine",
+        
+          title: "Umano o Sintetico? Il Valore di un Testo va Oltre la sua Origine*...",
+        
+        description: "Un’analisi provocatoria su perché, nell’era dell’IA, il valore di un testo non dipende dalla sua origine (umana o sintetica), ma dalla sua capacità di essere utile, vero e impattante. Una riflessione su autenticità, responsabilità e il futuro della creazione di contenuti.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/umano-o-sintetico/";
+          
+        },
       },{id: "post-la-norma-uni-11621-8-e-le-professioni-ai",
         
           title: "La norma UNI 11621-8 e le professioni AI",
