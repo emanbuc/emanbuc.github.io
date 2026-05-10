@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
           
         },
+      },{id: "post-dal-vibe-coding-all-39-agentic-software-engineering-la-differenza-non-è-di-strumento-ma-di-postura-professionale",
+        
+          title: "Dal Vibe Coding all&#39;Agentic Software Engineering: la differenza non è di strumento ma...",
+        
+        description: "Dal vibe coding all&#39;agentic software engineering: perché la differenza non sta negli strumenti ma nella postura professionale di chi sviluppa software con agenti AI.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/vibe-coding-vs-sweng/";
+          
+        },
       },{id: "post-umano-o-sintetico-il-valore-di-un-testo-va-oltre-la-sua-origine",
         
           title: "Umano o Sintetico? Il Valore di un Testo va Oltre la sua Origine...",
