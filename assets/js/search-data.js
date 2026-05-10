@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2025-07-11-Online_latex_editor/";
-          
-        },
-      },{id: "post-dal-vibe-coding-all-39-agentic-software-engineering-la-differenza-non-è-di-strumento-ma-di-postura-professionale",
+        },{id: "post-dal-vibe-coding-all-39-agentic-software-engineering-la-differenza-non-è-di-strumento-ma-di-postura-professionale",
         
           title: "Dal Vibe Coding all&#39;Agentic Software Engineering: la differenza non è di strumento ma...",
         
@@ -141,6 +130,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/Dove_pubblicare_tutorial_e_dispense_informatica/";
+          
+        },
+      },{id: "post-online-latex-editors-and-collaboration-tools-for-academic-writing-features-pricing-and-security",
+        
+          title: "Online LaTeX Editors and Collaboration Tools for Academic Writing: Features, Pricing, and Security...",
+        
+        description: "analysis of online LaTeX editors and collaboration tools designed for academic writing",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Online_latex_editor/";
           
         },
       },{id: "post-hosting-a-personal-website-on-github-pages",
