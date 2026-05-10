@@ -42,15 +42,15 @@ limitati a):
     <p><strong>Green AI</strong> — metriche e metodi per misurare e ridurre il carbon footprint di training e inference</p>
   </div>
   <div class="col">
-    {% include figure.liquid loading="lazy" path="assets/img/3.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="AI for Environmental Solutions" %}
+    {% include figure.liquid loading="lazy" path="assets/img/01_special_issue_ai_sustainability_ai_for_env_solution.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="AI for Environmental Solutions" %}
     <p><strong>AI for Environmental Solutions</strong> — ML in climate modeling, smart grid, waste management, precision agriculture</p>
   </div>
   <div class="col">
-    {% include figure.liquid loading="lazy" path="assets/img/5.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Uncertainty Quantification" %}
+    {% include figure.liquid loading="lazy" path="assets/img/01_special_issue_ai_sustainability_uncertainty_quantification.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Uncertainty Quantification" %}
     <p><strong>Uncertainty Quantification</strong> — affidabilità e robustezza di modelli AI in applicazioni di sostenibilità</p>
   </div>
   <div class="col">
-    {% include figure.liquid loading="lazy" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Software Engineering for Sustainability" %}
+    {% include figure.liquid loading="lazy" path="assets/img/01_special_issue_ai_sustainability_Software_Eng_for_Sustainability.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Software Engineering for Sustainability" %}
     <p><strong>Software Engineering for Sustainability</strong> — architetture e design pattern per sistemi software energy-efficient</p>
   </div>
   <div class="col">
