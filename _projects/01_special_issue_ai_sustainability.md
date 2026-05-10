@@ -36,12 +36,40 @@ da computer science, engineering e environmental studies.
 Sono benvenuti **research articles**, **review articles** e **short communications** su (non
 limitati a):
 
-- **Green AI** — metriche e metodi per misurare e ridurre il carbon footprint di training e inference
-- **AI for Environmental Solutions** — ML in climate modeling, smart grid, waste management, precision agriculture
-- **Uncertainty Quantification** — affidabilità e robustezza di modelli AI in applicazioni di sostenibilità
-- **Software Engineering for Sustainability** — architetture e design pattern per sistemi software energy-efficient
-- **Smart Systems** — ottimizzazione AI-driven in smart city e trasporti
-- **Ethical and Social Sustainability** — impatto del deploy AI su società e SDGs
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-3">
+  <div class="col">
+    {% include figure.liquid loading="eager" path="assets/img/01_special_issue_ai_sustainability_green_ai.png" class="img-fluid rounded z-depth-1 topic-thumb" alt="Green AI" %}
+    <p><strong>Green AI</strong> — metriche e metodi per misurare e ridurre il carbon footprint di training e inference</p>
+  </div>
+  <div class="col">
+    {% include figure.liquid loading="lazy" path="assets/img/3.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="AI for Environmental Solutions" %}
+    <p><strong>AI for Environmental Solutions</strong> — ML in climate modeling, smart grid, waste management, precision agriculture</p>
+  </div>
+  <div class="col">
+    {% include figure.liquid loading="lazy" path="assets/img/5.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Uncertainty Quantification" %}
+    <p><strong>Uncertainty Quantification</strong> — affidabilità e robustezza di modelli AI in applicazioni di sostenibilità</p>
+  </div>
+  <div class="col">
+    {% include figure.liquid loading="lazy" path="assets/img/7.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Software Engineering for Sustainability" %}
+    <p><strong>Software Engineering for Sustainability</strong> — architetture e design pattern per sistemi software energy-efficient</p>
+  </div>
+  <div class="col">
+    {% include figure.liquid loading="lazy" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Smart Systems" %}
+    <p><strong>Smart Systems</strong> — ottimizzazione AI-driven in smart city e trasporti</p>
+  </div>
+  <div class="col">
+    {% include figure.liquid loading="lazy" path="assets/img/11.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Ethical and Social Sustainability" %}
+    <p><strong>Ethical and Social Sustainability</strong> — impatto del deploy AI su società e SDGs</p>
+  </div>
+</div>
+
+<style>
+  .topic-thumb img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+</style>
 
 **Keywords**: artificial intelligence · green computing · energy efficiency · smart systems ·
 uncertainty quantification · sustainable AI · enterprise information systems · software
@@ -55,7 +83,7 @@ sustainability · energy-aware computing · environmental decision support
 
 ## Come contribuire
 
-1. Submission online via [www.mdpi.com](https://www.mdpi.com), selezionando questo Special Issue
+1. Submission online dalla pagina della [call for paper](https://www.mdpi.com/journal/sustainability/special_issues/AYV135CE76)
 2. Per *planned papers*: titolo + abstract (~250 parole) all'Editorial Office per assessment
    preliminare
 3. Tutti i manoscritti che superano il pre-check vanno in peer review single-blind
