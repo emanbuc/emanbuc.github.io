@@ -599,7 +599,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-ai-for-sustainability-mdpi-special-issue",
+          title: 'AI for Sustainability — MDPI Special Issue',
+          description: "Guest editor su Sustainability (MDPI) — Call for papers aperta fino al 3 febbraio 2027",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/01_special_issue_ai_sustainability/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
