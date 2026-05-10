@@ -23,7 +23,7 @@ Special Issue della rivista *[Sustainability](https://www.mdpi.com/journal/susta
 
 ## Aim & Scope
 
-Lo Special Issue affronta la doppia sfida di **AI for Sustainability** (applicazioni dell'intelligenza artificiale per affrontare la crisi climatica e gli SDGs) e **Sustainable AI** (algoritmi e hardware
+Lo Special Issue affronta la doppia sfida di **AI for Sustainability** (applicazioni dell'intelligenza artificiale per affrontare le sfide ambientali) e **Sustainable AI** (algoritmi e hardware
 energy-efficient, per contenere l'impronta ambientale dei modelli stessi).
 
 Focus specifico su **metriche e metodi rigorosi** per quantificare l'impatto ambientale dei modelli
@@ -54,12 +54,12 @@ limitati a):
     <p><strong>Software Engineering for Sustainability</strong> — architetture e design pattern per sistemi software energy-efficient</p>
   </div>
   <div class="col">
-    {% include figure.liquid loading="lazy" path="assets/img/9.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Smart Systems" %}
+    {% include figure.liquid loading="lazy" path="assets/img/01_special_issue_ai_sustainability_smart_systems.png" class="img-fluid rounded z-depth-1 topic-thumb" alt="Smart Systems" %}
     <p><strong>Smart Systems</strong> — ottimizzazione AI-driven in smart city e trasporti</p>
   </div>
   <div class="col">
-    {% include figure.liquid loading="lazy" path="assets/img/11.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Ethical and Social Sustainability" %}
-    <p><strong>Ethical and Social Sustainability</strong> — impatto del deploy AI su società e SDGs</p>
+    {% include figure.liquid loading="lazy" path="assets/img/01_special_issue_ai_sustainability_ethical_and_social.png" class="img-fluid rounded z-depth-1 topic-thumb" alt="Ethical and Social Sustainability" %}
+    <p><strong>Ethical and Social Sustainability</strong> — impatto del deploy AI su società e obiettivi di sviluppo sostenibile</p>
   </div>
 </div>
 
