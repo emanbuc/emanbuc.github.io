@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Online LaTeX Editors and Collaboration Tools for Academic Writing: Features, Pricing, and Security
+title: "Online LaTeX Editors and Collaboration Tools for Academic Writing: Features, Pricing, and Security"
 date: 2025-07-11 11:05:00
 description: analysis of online LaTeX editors and collaboration tools designed for academic writing
 tags: latex writing
@@ -12,8 +12,6 @@ images:
 ---
 
 # Online LaTeX Editors and Collaboration Tools for Academic Writing: Features, Pricing, and Security
-
-**Date:** September 11, 2025
 
 ## Abstract
 
