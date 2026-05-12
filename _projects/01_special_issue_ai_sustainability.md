@@ -46,7 +46,7 @@ limitati a):
     <p><strong>AI for Environmental Solutions</strong> — ML in climate modeling, smart grid, waste management, precision agriculture</p>
   </div>
   <div class="col">
-    {% include figure.liquid loading="lazy" path="assets/img/01_special_issue_ai_sustainability_uncertainty_quantification.jpg" class="img-fluid rounded z-depth-1 topic-thumb" alt="Uncertainty Quantification" %}
+    {% include figure.liquid loading="lazy" path="assets/img/01_special_issue_ai_sustainability_uncertainty_quantification.png" class="img-fluid rounded z-depth-1 topic-thumb" alt="Uncertainty Quantification" %}
     <p><strong>Uncertainty Quantification</strong> — affidabilità e robustezza di modelli AI in applicazioni di sostenibilità</p>
   </div>
   <div class="col">
