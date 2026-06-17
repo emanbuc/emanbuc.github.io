@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-17'
 papers:
   S-8t8JMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Design, Validation, and Risk Assessment of LLM-Based Generative AI Systems Operating in the Legal Sector
     year: '2024'
   S-8t8JMAAAAJ:Se3iqnhoufwC:
-    citations: 6
+    citations: 7
     title: Uncertainty quantification in AI-based measurement systems
     year: '2025'
   S-8t8JMAAAAJ:Tyk-4Ss8FVUC:
@@ -58,7 +58,7 @@ papers:
     title: Gesture recognition of sign language alphabet using a magnetic positioning system
     year: '2021'
   S-8t8JMAAAAJ:eQOLeE2rZwMC:
-    citations: 168
+    citations: 169
     title: Battery SOC estimation from EIS data based on machine learning and equivalent circuit model
     year: '2023'
   S-8t8JMAAAAJ:hqOjcs7Dif8C:
