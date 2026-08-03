@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-08-03'
 papers:
   S-8t8JMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Practical broadband measurement of battery EIS
     year: '2021'
   S-8t8JMAAAAJ:9yKSN-GCB0IC:
-    citations: 89
+    citations: 92
     title: Uncertainty characterization of a practical system for broadband measurement of battery EIS
     year: '2022'
   S-8t8JMAAAAJ:IjCSPb-OGe4C:
@@ -19,10 +19,10 @@ papers:
     year: '2022'
   S-8t8JMAAAAJ:LkGwnXOMwfcC:
     citations: 5
-    title: Design, Validation, and Risk Assessment of LLM-Based Generative AI Systems Operating in the Legal Sector
+    title: Design, validation, and risk assessment of LLM-based generative AI systems operating in the legal sector
     year: '2024'
   S-8t8JMAAAAJ:Se3iqnhoufwC:
-    citations: 9
+    citations: 11
     title: Uncertainty quantification in AI-based measurement systems
     year: '2025'
   S-8t8JMAAAAJ:Tyk-4Ss8FVUC:
@@ -31,14 +31,14 @@ papers:
     year: '2022'
   S-8t8JMAAAAJ:UebtZRa9Y70C:
     citations: 1
-    title: 'The Right Person in the Right Place: Teams Created with a Software Tool are More Successful, and People are More Cooperative'
+    title: 'The right person in the right place: Teams created with a software tool are more successful, and people are more cooperative'
     year: '2024'
   S-8t8JMAAAAJ:W7OEmFMy1HYC:
     citations: 10
     title: 'LiBEIS: A software tool for broadband electrochemical impedance spectroscopy of lithium-ion batteries'
     year: '2022'
   S-8t8JMAAAAJ:WF5omc3nYNoC:
-    citations: 40
+    citations: 43
     title: Uncertainty characterization of a CNN method for Lithium-Ion Batteries state of charge estimation using EIS data
     year: '2023'
   S-8t8JMAAAAJ:Y0pCki6q_DkC:
@@ -58,7 +58,7 @@ papers:
     title: Gesture recognition of sign language alphabet using a magnetic positioning system
     year: '2021'
   S-8t8JMAAAAJ:eQOLeE2rZwMC:
-    citations: 178
+    citations: 192
     title: Battery SOC estimation from EIS data based on machine learning and equivalent circuit model
     year: '2023'
   S-8t8JMAAAAJ:hqOjcs7Dif8C:
