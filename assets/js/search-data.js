@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-dal-vibe-coding-all-39-agentic-software-engineering-la-differenza-non-è-di-strumento-ma-di-postura-professionale",
+        },{id: "post-cosa-è-un-llm-wiki",
+        
+          title: "Cosa è un LLM Wiki",
+        
+        description: "Una LLM Wiki è una wiki personale che un&#39;intelligenza artificiale costruisce e mantiene aggiornata al posto tuo, leggendo le tue note e collegandole fra loro.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cosa-e-una-llm-wiki/";
+          
+        },
+      },{id: "post-dal-vibe-coding-all-39-agentic-software-engineering-la-differenza-non-è-di-strumento-ma-di-postura-professionale",
         
           title: "Dal Vibe Coding all&#39;Agentic Software Engineering: la differenza non è di strumento ma...",
         
