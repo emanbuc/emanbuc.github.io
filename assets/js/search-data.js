@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-cosa-è-un-llm-wiki",
+        },{id: "post-creare-un-llm-wiki-con-obsidian",
+        
+          title: "Creare un LLM Wiki con Obsidian",
+        
+        description: "Guida operativa per costruire una LLM Wiki a costo zero con Obsidian, il plugin Karpathy LLM Wiki, l&#39;API gratuita di Google Gemini e un vault versionato su GitHub.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/creare-llm-wiki-obsidian/";
+          
+        },
+      },{id: "post-cosa-è-un-llm-wiki",
         
           title: "Cosa è un LLM Wiki",
         
