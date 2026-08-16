@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-creare-un-llm-wiki-con-obsidian",
+        },{id: "post-llm-wiki-con-obsidian-come-iniziare-in-meno-di-10-minuti",
+        
+          title: "LLM Wiki con Obsidian - come iniziare in meno di 10 minuti",
+        
+        description: "Guida rapida, senza terminale né codice, per far partire una LLM Wiki su Obsidian con il plugin Karpathy LLM Wiki e una chiave API gratuita di Google Gemini.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/llm-wiki-obsidian-10-minuti/";
+          
+        },
+      },{id: "post-creare-un-llm-wiki-con-obsidian",
         
           title: "Creare un LLM Wiki con Obsidian",
         
