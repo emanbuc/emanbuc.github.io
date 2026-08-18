@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Audit delle licenze nei progetti con componenti di terze parti"
-date: 2026-08-18 09:00:00
+date: 2026-08-18 08:00:00
 description: "Perché la license compliance non è un adempimento formale, come si analizzano le licenze delle dipendenze di un progetto Python e come automatizzare il controllo in CI/CD con licence-audit-py."
 categories: software-engineering
 tags: license-compliance open-source python SBOM cyber-resilience-act
