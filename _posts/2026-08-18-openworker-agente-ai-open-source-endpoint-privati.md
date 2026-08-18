@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenWorker: un agente AI open source che gira dove decidi tu"
-date: 2026-08-18 15:00:00
+date: 2026-08-18 15:00:00 +0200
 description: "OpenWorker è un agente AI desktop open source (MIT) che tiene loop di esecuzione, conversazioni e credenziali sulla macchina dell'utente, e che può parlare sia con endpoint pubblici sia con modelli privati in self-hosting. È la combinazione che rende un agente adottabile in un contesto aziendale."
 categories: ai software-engineering
 tags: openworker agenti-ai open-source privacy self-hosting llm-locale
