@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-audit-delle-licenze-nei-progetti-con-componenti-di-terze-parti",
+        },{id: "post-openworker-un-agente-ai-open-source-che-gira-dove-decidi-tu",
+        
+          title: "OpenWorker: un agente AI open source che gira dove decidi tu",
+        
+        description: "OpenWorker è un agente AI desktop open source (MIT) che tiene loop di esecuzione, conversazioni e credenziali sulla macchina dell&#39;utente, e che può parlare sia con endpoint pubblici sia con modelli privati in self-hosting. È la combinazione che rende un agente adottabile in un contesto aziendale.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/openworker-agente-ai-open-source-endpoint-privati/";
+          
+        },
+      },{id: "post-audit-delle-licenze-nei-progetti-con-componenti-di-terze-parti",
         
           title: "Audit delle licenze nei progetti con componenti di terze parti",
         
