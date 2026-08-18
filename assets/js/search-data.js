@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-llm-wiki-con-obsidian-come-iniziare-in-meno-di-10-minuti",
+        },{id: "post-audit-delle-licenze-nei-progetti-con-componenti-di-terze-parti",
+        
+          title: "Audit delle licenze nei progetti con componenti di terze parti",
+        
+        description: "Perché la license compliance non è un adempimento formale, come si analizzano le licenze delle dipendenze di un progetto Python e come automatizzare il controllo in CI/CD con licence-audit-py.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/audit-licenze-dipendenze-terze-parti/";
+          
+        },
+      },{id: "post-llm-wiki-con-obsidian-come-iniziare-in-meno-di-10-minuti",
         
           title: "LLM Wiki con Obsidian - come iniziare in meno di 10 minuti",
         
