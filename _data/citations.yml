@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-19'
+  last_updated: '2026-08-21'
 papers:
   S-8t8JMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -58,7 +58,7 @@ papers:
     title: Gesture recognition of sign language alphabet using a magnetic positioning system
     year: '2021'
   S-8t8JMAAAAJ:eQOLeE2rZwMC:
-    citations: 198
+    citations: 199
     title: Battery SOC estimation from EIS data based on machine learning and equivalent circuit model
     year: '2023'
   S-8t8JMAAAAJ:hqOjcs7Dif8C:
@@ -78,6 +78,6 @@ papers:
     title: Time-domain Battery State-of-Charge Estimation based on Domain-Transformation and Linear Discriminant Analysis
     year: '2023'
   S-8t8JMAAAAJ:zYLM7Y9cAGgC:
-    citations: 27
+    citations: 28
     title: Dataset on broadband electrochemical impedance spectroscopy of lithium-ion batteries for different values of the state-of-charge
     year: '2022'
