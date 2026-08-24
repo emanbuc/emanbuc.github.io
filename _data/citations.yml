@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-24'
 papers:
   S-8t8JMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Practical broadband measurement of battery EIS
     year: '2021'
   S-8t8JMAAAAJ:9yKSN-GCB0IC:
-    citations: 93
+    citations: 94
     title: Uncertainty characterization of a practical system for broadband measurement of battery EIS
     year: '2022'
   S-8t8JMAAAAJ:IjCSPb-OGe4C:
@@ -78,6 +78,6 @@ papers:
     title: Time-domain Battery State-of-Charge Estimation based on Domain-Transformation and Linear Discriminant Analysis
     year: '2023'
   S-8t8JMAAAAJ:zYLM7Y9cAGgC:
-    citations: 28
+    citations: 29
     title: Dataset on broadband electrochemical impedance spectroscopy of lithium-ion batteries for different values of the state-of-charge
     year: '2022'
