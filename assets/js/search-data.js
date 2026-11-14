@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-openworker-un-agente-ai-open-source-che-gira-dove-decidi-tu",
+        },{id: "post-il-pianeta-dei-desideri-cosa-ci-insegna-pianeta-proibito-sugli-llm",
+        
+          title: "Il pianeta dei desideri: cosa ci insegna Pianeta Proibito sugli LLM",
+        
+        description: "Quando pensiamo a un&#39;AI pericolosa immaginiamo Skynet, la macchina che si ribella. Ma il film che somiglia di più agli LLM di oggi è Pianeta Proibito (1956): una macchina che non si ribella affatto, e che proprio per questo amplifica i desideri di chi la usa, anche quelli che nessuno sa di avere.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/il-pianeta-dei-desideri/";
+          
+        },
+      },{id: "post-openworker-un-agente-ai-open-source-che-gira-dove-decidi-tu",
         
           title: "OpenWorker: un agente AI open source che gira dove decidi tu",
         
