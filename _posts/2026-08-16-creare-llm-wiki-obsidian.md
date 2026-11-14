@@ -65,14 +65,14 @@ fa routing, fallback e rotazione fra modelli e chiavi.
 
 ## 1. Prerequisiti
 
-| Componente      | Versione / requisito | Note                                                                          |
-| --------------- | --------------------- | ------------------------------------------------------------------------------ |
-| Obsidian        | **1.11.4+**            | requisito minimo del plugin LLM Wiki                                          |
-| Git             | 2.30+ sul desktop      | il plugin Obsidian Git su mobile usa isomorphic-git, non serve git di sistema |
-| Account GitHub  | qualsiasi piano        | repo **privato**                                                              |
-| Account Google  | qualsiasi              | per AI Studio                                                                  |
-| Python 3.10+    | opzionale              | solo se usi il gateway LiteLLM                                                |
-| Ollama          | opzionale              | fallback locale quando la quota giornaliera è esaurita                        |
+| Componente     | Versione / requisito | Note                                                                          |
+| -------------- | -------------------- | ----------------------------------------------------------------------------- |
+| Obsidian       | **1.11.4+**          | requisito minimo del plugin LLM Wiki                                          |
+| Git            | 2.30+ sul desktop    | il plugin Obsidian Git su mobile usa isomorphic-git, non serve git di sistema |
+| Account GitHub | qualsiasi piano      | repo **privato**                                                              |
+| Account Google | qualsiasi            | per AI Studio                                                                 |
+| Python 3.10+   | opzionale            | solo se usi il gateway LiteLLM                                                |
+| Ollama         | opzionale            | fallback locale quando la quota giornaliera è esaurita                        |
 
 Non servono terminale, Python o app esterne per il funzionamento base: il plugin gira interamente
 dentro Obsidian.
@@ -159,15 +159,15 @@ Settings → Community plugins → Browse → **Git** (autore _Vinzent03_) → I
 
 Configurazione consigliata in Settings → Git:
 
-| Impostazione                          | Valore                                | Perché                                                                       |
-| -------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------ |
-| Vault backup interval (minutes)        | `0`                                     | disattiva il commit automatico a tempo: con l'ingest LLM vuoi commit semantici, non ogni 10 minuti |
-| Auto pull on startup                   | ✅                                      | evita divergenze quando lavori su più macchine                                |
-| Auto push on commit-and-sync           | ✅                                      |                                                                                 |
-| Commit message                         | `wiki: {{date}} — {{numFiles}} file`    | rende leggibile la history                                                     |
-| Pull before push                       | ✅                                      | riduce i reject                                                                |
-| Disable notifications                  | ❌                                      | vuoi vedere gli errori                                                         |
-| Line authoring / Source control view   | abilitato                              | comodo per review dei diff generati dall'LLM                                  |
+| Impostazione                         | Valore                               | Perché                                                                                             |
+| ------------------------------------ | ------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Vault backup interval (minutes)      | `0`                                  | disattiva il commit automatico a tempo: con l'ingest LLM vuoi commit semantici, non ogni 10 minuti |
+| Auto pull on startup                 | ✅                                   | evita divergenze quando lavori su più macchine                                                     |
+| Auto push on commit-and-sync         | ✅                                   |                                                                                                    |
+| Commit message                       | `wiki: {{date}} — {{numFiles}} file` | rende leggibile la history                                                                         |
+| Pull before push                     | ✅                                   | riduce i reject                                                                                    |
+| Disable notifications                | ❌                                   | vuoi vedere gli errori                                                                             |
+| Line authoring / Source control view | abilitato                            | comodo per review dei diff generati dall'LLM                                                       |
 
 Comandi utili (`Ctrl/Cmd+P`): _Git: Commit-and-sync_, _Git: Open source control view_, _Git: Pull_,
 _Git: Edit .gitignore_.
@@ -252,17 +252,17 @@ congelare le pagine che hai curato a mano.
 
 ### 3.3 Comandi principali
 
-| Comando                     | Quando usarlo                                                             |
-| ---------------------------- | --------------------------------------------------------------------------- |
-| 📥 Ingest single source      | test iniziale, note singole importanti                                     |
-| 📁 Ingest from folder        | batch su una cartella, con skip dei già ingeriti                           |
-| 📑 Ingest multiple files     | selezione puntuale con coda e cancel per file                              |
-| 🔍 Query wiki                | Q&A groundato sul vault, risposte con `[[wiki-link]]`                      |
-| 🛠️ Lint wiki                 | duplicati, link morti, pagine vuote, orfane, contraddizioni                |
-| ⚡ Smart Fix All             | riparazione automatica in ordine causale                                   |
-| 🔄 Regenerate index          | ricostruisce `wiki/index.md`                                               |
-| ⏹️ Cancel                    | ferma al prossimo batch boundary (**fondamentale con le quote free**)      |
-| 📜 Ingestion history         | storico ricercabile delle operazioni                                       |
+| Comando                  | Quando usarlo                                                         |
+| ------------------------ | --------------------------------------------------------------------- |
+| 📥 Ingest single source  | test iniziale, note singole importanti                                |
+| 📁 Ingest from folder    | batch su una cartella, con skip dei già ingeriti                      |
+| 📑 Ingest multiple files | selezione puntuale con coda e cancel per file                         |
+| 🔍 Query wiki            | Q&A groundato sul vault, risposte con `[[wiki-link]]`                 |
+| 🛠️ Lint wiki             | duplicati, link morti, pagine vuote, orfane, contraddizioni           |
+| ⚡ Smart Fix All         | riparazione automatica in ordine causale                              |
+| 🔄 Regenerate index      | ricostruisce `wiki/index.md`                                          |
+| ⏹️ Cancel                | ferma al prossimo batch boundary (**fondamentale con le quote free**) |
+| 📜 Ingestion history     | storico ricercabile delle operazioni                                  |
 
 ### 3.4 Impostazioni che pesano sulla quota
 
@@ -286,11 +286,11 @@ embedding per nota**. È il motivo per cui questo stack è sostenibile a quota g
 Le impostazioni del plugin non espongono un campo Model per comando, ma **tre slot indipendenti**
 che raggruppano i comandi di 3.3 per natura dell'azione:
 
-| Slot nell'interfaccia            | Comandi coperti                                                        |
-| ---------------------------------- | -------------------------------------------------------------------------- |
-| **Acquisizione**                  | 📥 Ingest single source, 📁 Ingest from folder, 📑 Ingest multiple files |
-| **Manutenzione e riparazione**    | 🛠️ Lint wiki, ⚡ Smart Fix All, 🔄 Regenerate index                       |
-| **Query**                         | 🔍 Query wiki                                                            |
+| Slot nell'interfaccia          | Comandi coperti                                                          |
+| ------------------------------ | ------------------------------------------------------------------------ |
+| **Acquisizione**               | 📥 Ingest single source, 📁 Ingest from folder, 📑 Ingest multiple files |
+| **Manutenzione e riparazione** | 🛠️ Lint wiki, ⚡ Smart Fix All, 🔄 Regenerate index                      |
+| **Query**                      | 🔍 Query wiki                                                            |
 
 Questo è il livello di granularità reale su cui puoi assegnare modelli diversi (§5.1): non per
 singolo comando, ma per questi tre gruppi.
@@ -365,15 +365,15 @@ uno **snapshot**, non un contratto.
 Snapshot verificato il 16/08/2026 su un progetto reale (finestra 28 giorni, picco di utilizzo vs
 limite):
 
-| Modello                                            | RPM | RPD    | Stato                                                                          |
-| ---------------------------------------------------- | ---- | ------ | --------------------------------------------------------------------------------- |
-| `gemini-3.5-flash-lite`                              | 15   | **500** | disponibile, best bucket per volume                                            |
-| `gemini-3.1-flash-lite`                              | 15   | **500** | disponibile, bucket indipendente dal precedente                                |
-| `gemini-3.6-flash`                                   | 5    | 20      | disponibile, quota minuscola                                                    |
-| `gemini-2.5-flash`                                   | 5    | 20      | quota residua bassissima (coerente con i tagli riportati da dicembre 2025)      |
-| `gemini-2.5-flash-lite`                              | 10   | 20      | non più il "cavallo da tiro": oggi rende solo 20 richieste/giorno              |
-| `gemini-2.0-flash` / `gemini-2.0-flash-lite`         | 0    | 0       | **ritirati**, non disponibili                                                  |
-| `gemini-2.5-pro` / modelli Pro                       | —    | —       | **assente dalla lista**: nessun Pro gratuito su questo progetto                |
+| Modello                                      | RPM | RPD     | Stato                                                                      |
+| -------------------------------------------- | --- | ------- | -------------------------------------------------------------------------- |
+| `gemini-3.5-flash-lite`                      | 15  | **500** | disponibile, best bucket per volume                                        |
+| `gemini-3.1-flash-lite`                      | 15  | **500** | disponibile, bucket indipendente dal precedente                            |
+| `gemini-3.6-flash`                           | 5   | 20      | disponibile, quota minuscola                                               |
+| `gemini-2.5-flash`                           | 5   | 20      | quota residua bassissima (coerente con i tagli riportati da dicembre 2025) |
+| `gemini-2.5-flash-lite`                      | 10  | 20      | non più il "cavallo da tiro": oggi rende solo 20 richieste/giorno          |
+| `gemini-2.0-flash` / `gemini-2.0-flash-lite` | 0   | 0       | **ritirati**, non disponibili                                              |
+| `gemini-2.5-pro` / modelli Pro               | —   | —       | **assente dalla lista**: nessun Pro gratuito su questo progetto            |
 
 Il vincolo che conta davvero per questo workflow resta **RPD**, non RPM — ma con questi numeri il
 divario fra i modelli Lite di ultima generazione (500 RPD) e tutto il resto (20 RPD) è enorme, e
@@ -400,11 +400,11 @@ I limiti sono **per modello**. Esaurire `gemini-2.5-flash` non tocca la quota di
 `gemini-2.5-flash-lite`. Il moltiplicatore gratuito è quindi assegnare un modello diverso a
 ciascuno dei **tre slot reali dell'interfaccia** (§3.5), non un tiering ipotetico per fase:
 
-| Slot                            | Modello (snapshot 16/08/2026)              | Razionale                                                                                                                          |
-| --------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Acquisizione**                 | `gemini-3.5-flash-lite` (RPM 15 / RPD 500)    | è lo slot a volume più alto per definizione (§5.3): gli va riservato il bucket più capiente disponibile                            |
-| **Manutenzione e riparazione**   | `gemini-3.6-flash` (RPM 5 / RPD 20)           | è lo slot con meno chiamate ma più impatto sulla qualità (lint, dedup, contraddizioni): merita il modello migliore, anche con RPD basso |
-| **Query**                        | `gemini-3.1-flash-lite` (RPM 15 / RPD 500)    | **modello diverso da Acquisizione apposta**: essendo un modello diverso, il bucket RPD è indipendente anche restando sullo stesso progetto/chiave, quindi le query quotidiane non intaccano la quota dell'ingest |
+| Slot                           | Modello (snapshot 16/08/2026)              | Razionale                                                                                                                                                                                                        |
+| ------------------------------ | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Acquisizione**               | `gemini-3.5-flash-lite` (RPM 15 / RPD 500) | è lo slot a volume più alto per definizione (§5.3): gli va riservato il bucket più capiente disponibile                                                                                                          |
+| **Manutenzione e riparazione** | `gemini-3.6-flash` (RPM 5 / RPD 20)        | è lo slot con meno chiamate ma più impatto sulla qualità (lint, dedup, contraddizioni): merita il modello migliore, anche con RPD basso                                                                          |
+| **Query**                      | `gemini-3.1-flash-lite` (RPM 15 / RPD 500) | **modello diverso da Acquisizione apposta**: essendo un modello diverso, il bucket RPD è indipendente anche restando sullo stesso progetto/chiave, quindi le query quotidiane non intaccano la quota dell'ingest |
 
 Con questi tre modelli, Acquisizione e Query hanno **1000 RPD combinati** invece di condividere un
 unico bucket, e Manutenzione resta isolata sul modello di qualità migliore disponibile — anche se
@@ -482,8 +482,9 @@ model_list:
     litellm_params:
       model: gemini/gemini-3.5-flash-lite
       api_key: os.environ/GEMINI_KEY_PROJ_A
-      rpm: 15   # coincide col limite reale: lascia che LiteLLM metta in coda
-                # invece di far sforare il picco (429 osservati a 20/15)
+      rpm:
+        15 # coincide col limite reale: lascia che LiteLLM metta in coda
+        # invece di far sforare il picco (429 osservati a 20/15)
 
   # --- Slot "Manutenzione e riparazione": RPM 5 / RPD 20 — quota minuscola,
   # secondo backend nello stesso alias per raddoppiare il budget (20+20=40 RPD)
@@ -530,7 +531,7 @@ litellm_settings:
   cache: true
   cache_params:
     type: local
-    ttl: 86400        # 24h: ri-ingest o ri-query dello stesso testo non consuma quota
+    ttl: 86400 # 24h: ri-ingest o ri-query dello stesso testo non consuma quota
 ```
 
 Avvio:
@@ -609,14 +610,14 @@ systemctl --user enable --now litellm
 Con `wiki-acquisizione` a 500 RPD e `wiki-manutenzione` a soli 20–40 RPD (§5.1), il collo di
 bottiglia della settimana non è più l'ingest ma il lint:
 
-| Giorno   | Attività                                             | Slot                                       | Costo indicativo | Note                                                                                       |
-| -------- | ------------------------------------------------------ | --------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------- |
-| Lun      | Ingest cartella A (~150 note)                          | `wiki-acquisizione`                            | ~500 richieste     | satura il bucket giornaliero, va bene così                                                 |
-| Mar      | Ingest cartella B / note dense                         | `wiki-acquisizione`                            | ~500 richieste     |                                                                                                    |
-| Mer      | Lint + Smart Fix All + Regenerate index                | `wiki-manutenzione`                            | ~40 richieste      | con soli 20–40 RPD, spezza il lint su più giorni se il vault è grande, invece di lanciarlo tutto in un colpo |
-| Gio      | Prosegui lint se non concluso, altrimenti nuovo ingest | `wiki-manutenzione` / `wiki-acquisizione`      | variabile          |                                                                                                    |
-| Ven      | Review manuale, `reviewed: true`, commit                | —                                              | 0                   |                                                                                                    |
-| Sab–Dom  | Query e lettura                                         | `wiki-query` o `wiki-local`                    | trascurabile        | slot separato da Acquisizione: non consuma la stessa quota                                       |
+| Giorno  | Attività                                               | Slot                                      | Costo indicativo | Note                                                                                                         |
+| ------- | ------------------------------------------------------ | ----------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------ |
+| Lun     | Ingest cartella A (~150 note)                          | `wiki-acquisizione`                       | ~500 richieste   | satura il bucket giornaliero, va bene così                                                                   |
+| Mar     | Ingest cartella B / note dense                         | `wiki-acquisizione`                       | ~500 richieste   |                                                                                                              |
+| Mer     | Lint + Smart Fix All + Regenerate index                | `wiki-manutenzione`                       | ~40 richieste    | con soli 20–40 RPD, spezza il lint su più giorni se il vault è grande, invece di lanciarlo tutto in un colpo |
+| Gio     | Prosegui lint se non concluso, altrimenti nuovo ingest | `wiki-manutenzione` / `wiki-acquisizione` | variabile        |                                                                                                              |
+| Ven     | Review manuale, `reviewed: true`, commit               | —                                         | 0                |                                                                                                              |
+| Sab–Dom | Query e lettura                                        | `wiki-query` o `wiki-local`               | trascurabile     | slot separato da Acquisizione: non consuma la stessa quota                                                   |
 
 Commit-and-sync a fine di ogni giornata: la history diventa un log dell'evoluzione della wiki.
 
@@ -686,17 +687,17 @@ Checklist finale:
 
 ## 8. Troubleshooting
 
-| Sintomo                                                  | Causa                                                             | Rimedio                                                                                                          |
-| ----------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `429 RESOURCE_EXHAUSTED` durante l'ingest                    | RPD o RPM esaurito                                                   | ⏹️ Cancel (si ferma pulito al batch boundary), passa a un altro modello o attendi il reset delle 09:00/10:00. Con LiteLLM il fallback è automatico |
-| 429 immediato con quota apparentemente libera                | il progetto ha quota 0 su quel modello, o il modello non è nel free tier | controlla Cloud Console → Quotas; prova un modello diverso                                                          |
-| `Test Connection` fallisce con base URL custom                | slash finale mancante                                                 | il base URL deve terminare con `/v1beta/openai/` (o `/v1` per LiteLLM)                                              |
-| Estrazione incoerente, tag inventati                          | modello troppo piccolo per il task                                    | definisci il _Custom Tag Vocabulary_, oppure passa temporaneamente lo slot Acquisizione a un modello più capace (es. `gemini-3.6-flash`) per quella cartella |
-| Ingest lentissimo o bloccato su vault grande                   | context window insufficiente                                          | usa modelli long-context per il batch; per vault oltre ~2000 pagine servono 200K+ token di contesto                 |
-| Duplicati e pagine orfane dopo più ingest                      | deduplica parziale fra batch                                          | 🛠️ Lint wiki → ⚡ Smart Fix All → 🔄 Regenerate index                                                               |
-| Conflitti git ricorrenti                                       | due dispositivi che scrivono                                          | Pull prima di ogni sessione; regola "un solo scrittore alla volta"; verifica che `workspace.json` sia ignorato       |
-| Push mobile lentissimo                                          | isomorphic-git su history lunga                                       | shallow clone, oppure sincronizza solo da desktop                                                                    |
-| Repo che cresce a dismisura                                     | PDF versionati                                                        | Git LFS, oppure tieni i PDF fuori dal vault e ingerisci il `.md` convertito                                          |
+| Sintomo                                        | Causa                                                                    | Rimedio                                                                                                                                                      |
+| ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `429 RESOURCE_EXHAUSTED` durante l'ingest      | RPD o RPM esaurito                                                       | ⏹️ Cancel (si ferma pulito al batch boundary), passa a un altro modello o attendi il reset delle 09:00/10:00. Con LiteLLM il fallback è automatico           |
+| 429 immediato con quota apparentemente libera  | il progetto ha quota 0 su quel modello, o il modello non è nel free tier | controlla Cloud Console → Quotas; prova un modello diverso                                                                                                   |
+| `Test Connection` fallisce con base URL custom | slash finale mancante                                                    | il base URL deve terminare con `/v1beta/openai/` (o `/v1` per LiteLLM)                                                                                       |
+| Estrazione incoerente, tag inventati           | modello troppo piccolo per il task                                       | definisci il _Custom Tag Vocabulary_, oppure passa temporaneamente lo slot Acquisizione a un modello più capace (es. `gemini-3.6-flash`) per quella cartella |
+| Ingest lentissimo o bloccato su vault grande   | context window insufficiente                                             | usa modelli long-context per il batch; per vault oltre ~2000 pagine servono 200K+ token di contesto                                                          |
+| Duplicati e pagine orfane dopo più ingest      | deduplica parziale fra batch                                             | 🛠️ Lint wiki → ⚡ Smart Fix All → 🔄 Regenerate index                                                                                                        |
+| Conflitti git ricorrenti                       | due dispositivi che scrivono                                             | Pull prima di ogni sessione; regola "un solo scrittore alla volta"; verifica che `workspace.json` sia ignorato                                               |
+| Push mobile lentissimo                         | isomorphic-git su history lunga                                          | shallow clone, oppure sincronizza solo da desktop                                                                                                            |
+| Repo che cresce a dismisura                    | PDF versionati                                                           | Git LFS, oppure tieni i PDF fuori dal vault e ingerisci il `.md` convertito                                                                                  |
 
 ---
 

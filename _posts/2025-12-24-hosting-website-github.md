@@ -16,6 +16,7 @@ Hosting a personal website on GitHub is a powerful way to establish a profession
 GitHub offers a feature called GitHub Pages, which can host static websites directly from a repository. This is ideal for personal portfolios, research pages, and blogs written in Markdown.
 
 **Key advantages include:**
+
 - **Free** hosting with automatic HTTPS and no bandwidth limits for typical personal use.
 - Tight integration with Git: your site is version-controlled, reviewable, and easy to roll back.
 - Native support for static site generators like Jekyll, making Markdown-based blogs and documentation straightforward to manage.
@@ -25,6 +26,7 @@ GitHub offers a feature called GitHub Pages, which can host static websites dire
 GitHub Pages serves HTML, CSS, JavaScript, and other static assets from a special branch or repository. For a user site, the repository is typically named `username.github.io`, and GitHub automatically builds and publishes it.
 
 **Important characteristics:**
+
 - Content is static: no server-side code such as Python, PHP, or Node.js runs on GitHub Pages.
 - Sites can be either user/organization sites (`username.github.io`) or project-specific sites under any repository.
 - Configuration is managed via repository settings and simple configuration files, so most changes are handled through Git commits.
@@ -32,29 +34,34 @@ GitHub Pages serves HTML, CSS, JavaScript, and other static assets from a specia
 ## Choosing a Site Structure and Workflow
 
 Before writing content, decide how you want to manage your site:
+
 - For a minimal portfolio, a hand-written HTML page plus a stylesheet may be enough.
 - For content-heavy sites or blogs, using a static site generator like Jekyll simplifies layout reuse, navigation, and Markdown-based authoring.
 - A hybrid approach often works well: a Jekyll site with separate sections for an “About” page, a research or projects portfolio, and a blog.
 - A template-based website can offer more customization options.
 
 ### 1. Simple HTML/CSS/JavaScript
+
 - Create a repository named `yourusername.github.io`
 - Add `index.html`, CSS, and JS files
 - Enable GitHub Pages in Settings
 - Your site goes live at `https://yourusername.github.io`
 
 ### 2. Using Jekyll (GitHub's Built-in Generator)
+
 - Jekyll is automatically supported by GitHub Pages
 - Supports Markdown-based blog posts and pages
 - Choose from GitHub's supported themes (Minima, Hacker, etc.)
 - Ideal if you want blogging capabilities
 
 ### 3. Using Pre-built Templates
+
 - Clone a portfolio template repository (like `al-folio` or others from GitHub Collections)
 - Customize with your content
 - Deploy with a single push
 
 ### Key Features Across Approaches
+
 - ✅ Free hosting
 - ✅ Free HTTPS
 - ✅ Custom domain support (optional)
@@ -63,5 +70,3 @@ Before writing content, decide how you want to manage your site:
 - ✅ Easy updates via Git
 
 ---
-
-

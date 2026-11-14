@@ -25,11 +25,11 @@ Online LaTeX editors combine powerful typesetting with modern collaboration tool
 
 ## Online LaTeX Editors
 
-The most popular and widely used online LaTeX editor is *Overleaf*, known for its collaborative features, real-time editing, document sharing, and extensive template library, making it a standard tool for academic and technical writing worldwide. Other popular online editors include *Papeeria* (https://papeeria.com) and *Authorea* (https://www.authorea.com). Beyond the most popular and established platforms, a new generation of online LaTeX editors is gaining traction. Also cloud-based managed computation platforms such as *CoCalc* (https://cocalc.com/) that include a LaTeX editor should be considered.
+The most popular and widely used online LaTeX editor is _Overleaf_, known for its collaborative features, real-time editing, document sharing, and extensive template library, making it a standard tool for academic and technical writing worldwide. Other popular online editors include _Papeeria_ (https://papeeria.com) and _Authorea_ (https://www.authorea.com). Beyond the most popular and established platforms, a new generation of online LaTeX editors is gaining traction. Also cloud-based managed computation platforms such as _CoCalc_ (https://cocalc.com/) that include a LaTeX editor should be considered.
 
 ### Getting started
 
-All online LaTeX featured a very friendly on-boarding process that allow the user to start writing in less than 2 minutes. Only an e-mail address is required activate a free plan instance. *CoCalc*, due to the different nature of the platform, require some more effort for the initial setup and do not provide a free plan.
+All online LaTeX featured a very friendly on-boarding process that allow the user to start writing in less than 2 minutes. Only an e-mail address is required activate a free plan instance. _CoCalc_, due to the different nature of the platform, require some more effort for the initial setup and do not provide a free plan.
 
 ### Overleaf
 
@@ -209,13 +209,13 @@ Institutions should:
 
 ## Comparative Recommendations
 
-Based on the present survey and 5 years of daily user experience my favorite tools is *Overleaf*, but it is also the most expensive. I found a better features versus cost balance in *TeXPage* and *www.papeeria.com* 5 € per month plans. My general advises are:
+Based on the present survey and 5 years of daily user experience my favorite tools is _Overleaf_, but it is also the most expensive. I found a better features versus cost balance in _TeXPage_ and *www.papeeria.com* 5 € per month plans. My general advises are:
 
 - If your research institution provide institutional account probably you should take advantage of this benefit.
 
 - Create a free account, import a project representative of you typical paper a try to work on the project for at lest few hours. Some days is better if possible.
 
-- If you are a *privacy-focused* user (or you have to work under security constrains) consider on-premises solutions or at least an hybrid solution with most sensitive data keep in private server while using a public cloud based collaboration platform. EU based platform and data center may also help with security and privacy requirements.
+- If you are a _privacy-focused_ user (or you have to work under security constrains) consider on-premises solutions or at least an hybrid solution with most sensitive data keep in private server while using a public cloud based collaboration platform. EU based platform and data center may also help with security and privacy requirements.
 
 ## Future Trends
 

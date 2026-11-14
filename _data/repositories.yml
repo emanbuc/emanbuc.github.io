@@ -6,9 +6,9 @@ repo_description_lines_max: 2
 github_repos:
   - emanbuc/winserver2022-asp
   - emanbuc/asp.net481-crystal
-  - emanbuc/ASL-Recognition-Deep-Learning 
+  - emanbuc/ASL-Recognition-Deep-Learning
   - emanbuc/ultrasonic-vision
   - electrical-and-electronic-measurement/LiBEIS
   - electrical-and-electronic-measurement/EasyEIS-with-SMU
   - electrical-and-electronic-measurement/state-of-charge-with-EIS-and-CNN
-  - electrical-and-electronic-measurement/ml-4-measurement 
+  - electrical-and-electronic-measurement/ml-4-measurement

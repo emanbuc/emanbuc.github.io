@@ -62,7 +62,7 @@ param_sampling = RandomParameterSampling(param_space)
 
 ```
 
-### Bayesian sampling 
+### Bayesian sampling
 
 Bayesian sampling chooses hyperparameter values based on the Bayesian optimization algorithm, which tries to select parameter combinations that will result in improved performance from the previous selection.
 
@@ -77,7 +77,7 @@ param_space = {
 param_sampling = BayesianParameterSampling(param_space)
 ```
 
- Note: Bayesian sampling can be used only with choice, uniform, and quniform parameter expressions, and can not be combined with an early-termination policy
+Note: Bayesian sampling can be used only with choice, uniform, and quniform parameter expressions, and can not be combined with an early-termination policy
 
 ## Early Termination Policy
 
@@ -143,7 +143,7 @@ You can found an example of HyperDrive experiment and a [training script](https:
 A reference training script example you can use as template is the following one:
 
 ```Python
-# using a --regularization argument to set the regularization rate 
+# using a --regularization argument to set the regularization rate
 # hyperparameter, and logs the accuracy metric with the name Accuracy
 
 import argparse

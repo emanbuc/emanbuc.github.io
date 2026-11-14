@@ -19,7 +19,7 @@ Algorithms fine-tune themselves with the data they train on. They build their ow
 
 ## What is Big Data?
 
-Data consists of numbers, words, measurements and observations formatted in ways computers can process. 
+Data consists of numbers, words, measurements and observations formatted in ways computers can process.
 The digital era presents a challenge for traditional data-processing software: information becomes available in such volume, velocity and variety that it ends up outpacing human-centered computation. And we can describe big data using these three “V”s: volume, velocity and variety. 
 
 - Volume refers to the scale of available data;
@@ -28,7 +28,7 @@ The digital era presents a challenge for traditional data-processing software: i
 
 Two other Vs are often added to previous three:
 
-- Veracity refers to the consistency 
+- Veracity refers to the consistency
 - certainty (or lack thereof) in the sourced data, while value measures the usefulness of the data that’s been extracted from the data received. 
 
 ## Big Data Meet Big Data

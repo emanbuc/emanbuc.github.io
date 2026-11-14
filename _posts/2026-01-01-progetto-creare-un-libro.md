@@ -24,11 +24,11 @@ Per arrivare al risultato finale, abbiamo seguito un percorso strutturato:
 5. **Revisione delle bozze:** Un esercizio di attenzione e lettura critica per individuare refusi, errori di impaginazione e valutare possibili alternative.
 6. **Distribuzione e pubblicazione:** Scegliere canale e modalità di pubblicazione e distribuzione si è rivelato più impegnativo del previsto. Le opzioni sono numerose e abbiamo imparato molto.
 
-{% include figure.liquid 
-    path="assets/img/processo_creazione_libro_con_bambini.png" 
-    title="Optional hover title" 
-    caption="Figure 1: Le sei fasi principali del processo di creazione che abbiamo seguito." 
-    zoomable=true 
+{% include figure.liquid
+    path="assets/img/processo_creazione_libro_con_bambini.png"
+    title="Optional hover title"
+    caption="Figure 1: Le sei fasi principali del processo di creazione che abbiamo seguito."
+    zoomable=true
 %}
 
 ## 💡 Competenze e Decisioni Strategiche
@@ -47,14 +47,10 @@ Vedere il proprio nome su una copertina e il libro disponibile per l'acquisto ac
 
 ## 📖 Perché abbiamo scelto la carta
 
-In un'epoca in cui tutto scorre velocemente su uno schermo, abbiamo deciso di **stampare il nostro libro.** Oltre alla versione e-book, "I Gatti e le Stagioni" è diventato un oggetto fisico, solido, da sfogliare. 
-
+In un'epoca in cui tutto scorre velocemente su uno schermo, abbiamo deciso di **stampare il nostro libro.** Oltre alla versione e-book, "I Gatti e le Stagioni" è diventato un oggetto fisico, solido, da sfogliare.
 
 Noi amiamo molto i libri e leggiamo tutti i giorni insieme ai bambini. I bambini sono abituati a maneggiare i loro libri e vedere libri in mano a noi genitori. Per un bambino di 5 anni, il concetto di "file digitale" è astratto. Tenere in mano il volume, sentire l'odore della carta e il peso delle pagine dà una consistenza reale alla loro fatica. Non è più "un disegno nel computer del papà", ma **un'opera vera** che occupa uno spazio fisico nella libreria di casa.
 
-C'è anche un altro aspetto: il digitale è fragile: i formati cambiano, gli account si perdono, i dispositivi si rompono. Un libro fisico è una **promessa di durata**. Abbiamo spiegato ai bambini che questo libro è un pezzetto della loro infanzia. Un giorno, potranno mostrarlo ai loro figli, dicendo: *"Guarda, questo l'ho disegnato io quando avevo la tua età"*.
+C'è anche un altro aspetto: il digitale è fragile: i formati cambiano, gli account si perdono, i dispositivi si rompono. Un libro fisico è una **promessa di durata**. Abbiamo spiegato ai bambini che questo libro è un pezzetto della loro infanzia. Un giorno, potranno mostrarlo ai loro figli, dicendo: _"Guarda, questo l'ho disegnato io quando avevo la tua età"_.
 
-
-C'è anche un altro aspetto: il digitale è fragile: i formati cambiano, gli account si perdono, i dispositivi si rompono. Un libro fisico è una **promessa di durata**. Abbiamo spiegato ai bambini che questo libro è un pezzetto della loro infanzia. Un giorno, potranno mostrarlo ai loro figli, dicendo: *"Guarda, questo l'ho disegnato io quando avevo la tua età"*.
-
-
+C'è anche un altro aspetto: il digitale è fragile: i formati cambiano, gli account si perdono, i dispositivi si rompono. Un libro fisico è una **promessa di durata**. Abbiamo spiegato ai bambini che questo libro è un pezzetto della loro infanzia. Un giorno, potranno mostrarlo ai loro figli, dicendo: _"Guarda, questo l'ho disegnato io quando avevo la tua età"_.

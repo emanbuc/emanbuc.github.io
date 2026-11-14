@@ -12,10 +12,10 @@ tags: vibe-coding agentic-engineering ai llm karpathy
 Nel febbraio 2025 Andrej Karpathy pubblica un post su X in cui descrive il modo in cui sta
 costruendo una piccola web app:
 
-> *"I'm building a project or webapp, but it's not really coding — I just see stuff, say stuff,
-> run stuff, and copy paste stuff, and it mostly works."*
+> _"I'm building a project or webapp, but it's not really coding — I just see stuff, say stuff,
+> run stuff, and copy paste stuff, and it mostly works."_
 
-Il termine *vibe coding* nasce così, e si diffonde in poche settimane. Nel 2025 il Collins
+Il termine _vibe coding_ nasce così, e si diffonde in poche settimane. Nel 2025 il Collins
 Dictionary lo elegge **parola dell'anno**. Il fenomeno tocca un nervo scoperto: sviluppare software
 non assomiglia più a quello che era anche solo due anni prima.
 
@@ -54,7 +54,7 @@ interessante — e che rende necessario un passo successivo.
 
 ## Il passo successivo: Agentic Software Engineering
 
-Nell'aprile 2026, alla conferenza Sequoia AI Ascent, lo stesso Karpathy presenta una distinzione netta. Riprende il termine *vibe coding* e lo affianca a un secondo concetto: *agentic engineering*.
+Nell'aprile 2026, alla conferenza Sequoia AI Ascent, lo stesso Karpathy presenta una distinzione netta. Riprende il termine _vibe coding_ e lo affianca a un secondo concetto: _agentic engineering_.
 Sono due cose correlate, ma diverse:
 
 - **Vibe coding**: abbassa la barriera di ingresso e permette a chiunque di creare software descrivendo cosa vuole. Va bene per **prototipi e strumenti personali**.
@@ -126,12 +126,14 @@ o nell'altro. La domanda è: con quale **disciplina** lo farò?
 ---
 
 ## Riferimenti
-- Karpathy, A. (febbraio 2025) — post originale su X che introduce il termine *vibe coding*
+
+- Karpathy, A. (febbraio 2025) — post originale su X che introduce il termine _vibe coding_
 - [Collins Dictionary — parola dell'anno 2025](https://blog.collinsdictionary.com/language-lovers/collins-word-of-the-year-2025-ai-meets-authenticity-as-society-shifts/)
 - Karpathy, A. (aprile 2026) — [intervento a Sequoia AI Ascent 2026](https://sequoiacap.com/article/ai-ascent-2026/)
 - Karpathy, A. — [post su Agentic Software Engineering](https://karpathy.bearblog.dev/sequoia-ascent-2026/)
 
 ## Note editoriali
+
 - Tono: divulgativo ma rigoroso — il lettore può essere developer o manager tecnico
 - Pezzo lungo: candidato a "post pillar" che si collega ai due post brevi già in bozza
   ("Umani troppo perfetti" sulla plausibilità, "10-80-10" sul metodo di delega)

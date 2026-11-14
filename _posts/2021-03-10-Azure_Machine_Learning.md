@@ -14,7 +14,6 @@ Azure Machine Learning is a cloud-based platform for building and operating mach
 
 ![azure ml](/assets/img/01-01-what-is-azure-ml.jpg)
 
-
 Built on the Microsoft Azure cloud platform, Azure Machine Learning enables you to manage:
 
 Scalable on-demand compute for machine learning workloads.
@@ -23,11 +22,6 @@ Machine learning workflow orchestration to automate model training, deployment, 
 Model registration and management, so you can track multiple versions of models and the data on which they were trained.
 Metrics and monitoring for training experiments, datasets, and published services.
 Model deployment for real-time and batch inferencing.
-
-
-
-
-
 
 ## Azure MAchine Learning Workspace
 
@@ -59,8 +53,6 @@ The Azure resources created alongside a workspace include:
 
 For each one of the resources listed above there are associated costs even is the workspace in not used. So you must delete the worspace id you do not want to consume your credits1.
 
-
-
 ## Compute Resources
 
 There are four kinds of compute resource you can create:
@@ -75,14 +67,14 @@ There are four kinds of compute resource you can create:
 You can create a workspace in any of the following ways:
 
 1. In the Microsoft Azure portal, create a new Machine Learning resource, specifying the subscription, resource group and workspace name.
-2. Use the Azure Machine Learning Python SDK to run code that creates a workspace. 
+2. Use the Azure Machine Learning Python SDK to run code that creates a workspace.
 
 For example, the following code creates a workspace named aml-workspace (assuming the Azure ML SDK for Python is installed and a valid subscription ID is specified):
 
 ```Python
 from azureml.core import Workspace
-    
-    ws = Workspace.create(name='aml-workspace', 
+
+    ws = Workspace.create(name='aml-workspace',
                       subscription_id='123456-abc-123...',
                       resource_group='aml-resources',
                       create_resource_group=True,
@@ -98,7 +90,7 @@ For example, you could use the following command (which assumes a resource group
 az ml workspace create -w 'aml-workspace' -g 'aml-resources'
 ```
 
-## Azure Machine Learning studio 
+## Azure Machine Learning studio
 
 Azure Machine Learning studio is a web-based tool for managing an Azure Machine Learning workspace.
 
@@ -112,7 +104,7 @@ Azure Machine Learning Studio Classic miss many features present in Azure Machin
 
 ## The Azure Machine Learning SDK
 
-While graphical interfaces like Azure Machine Learning studio make it easy to create and manage machine learning assets, it is often advantageous to use a code-based approach to managing resources. 
+While graphical interfaces like Azure Machine Learning studio make it easy to create and manage machine learning assets, it is often advantageous to use a code-based approach to managing resources.
 
 Azure Machine Learning provides software development kits (SDKs) for Python and R, which you can use to create, manage, and use assets in an Azure Machine Learning workspace.
 
@@ -176,7 +168,7 @@ from azureml.core import Experiment, ScriptRunConfig
 
 # Create a script config
 script_config = ScriptRunConfig(source_directory=experiment_folder,
-                                script='experiment.py') 
+                                script='experiment.py')
 
 # submit the experiment
 experiment = Experiment(workspace = ws, name = 'my-experiment')
@@ -184,6 +176,7 @@ run = experiment.submit(config=script_config)
 run.wait_for_completion(show_output=True)
 
 ```
+
 An experiment script (such as experiment.py) is just a Python code file that contains the code you want to run in the experiment. To access the experiment run context (which is needed to log metrics) the script must import the **azureml.core.Run** class and call its get_context method. The script can then use the run context to log metrics, upload files, and complete the experiment.
 
 ```Python

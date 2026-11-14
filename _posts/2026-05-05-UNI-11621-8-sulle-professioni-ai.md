@@ -12,11 +12,13 @@ Viviamo in un'epoca in cui la tecnologia corre più veloce della nostra capacit�
 La risposta italiana arriva con la norma UNI 11621-8 (pubblicata a fine aprile 2026), che definisce i profili professionali relativi all’IA. Ma definire un ruolo in questo settore è come fotografare l'acqua che scorre in fiume: l'immagine che catturiamo è già, per sua natura, diversa dalla realtà un istante dopo.
 
 ## L'Illusione della Cristallizzazione
+
 Il rischio, tuttavia, è quello di cadere nell'illusione che una norma possa "fermare" l'evoluzione di una professione. L'Intelligenza Artificiale in questo periodo non è un settore statico, un ecosistema in rapidissima evoluzione che muta ogni giorno ogni volta che un nuovo risultato scietifico viene pubblicato o che un nuovo modello di frontiera viene rilasciato sul mercato.
 
-Se ci limitiamo a seguire pedissequamente una lista di requisiti scritti oggi, rischiamo di formare professionisti per un mondo che non esisterà più tra due anni. La UNI 11621-8 ha ufficializzato nel 2026 la professione di *prompt engineer*. Nel 2023 *prompt engineer* era la professione dle futuro. Ora nel 2026 è ormai in buona parte superato ed ora si parla di *contex engineering*.
+Se ci limitiamo a seguire pedissequamente una lista di requisiti scritti oggi, rischiamo di formare professionisti per un mondo che non esisterà più tra due anni. La UNI 11621-8 ha ufficializzato nel 2026 la professione di _prompt engineer_. Nel 2023 _prompt engineer_ era la professione dle futuro. Ora nel 2026 è ormai in buona parte superato ed ora si parla di _contex engineering_.
 
 ## Perché abbiamo bisogno di standard (nonostante tutto)
+
 In un mercato saturo di "esperti" improvvisati e terminologie fumose, la normazione tecnica non è solo burocrazia, è un tentativo di creare un linguaggio comune. La UNI 11621-8, muovendosi nel solco della famiglia ISO per le competenze ICT, identifica profili specifici (dal Machine Learning Specialist al Prompt Engineer) stabilendo:
 
 - Conoscenze: Cosa devono sapere.

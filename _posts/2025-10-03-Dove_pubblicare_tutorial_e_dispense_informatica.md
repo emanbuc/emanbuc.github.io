@@ -19,7 +19,7 @@ Prima di limitarti a un PDF sul tuo sito personale, a un post sul tuo blog o a u
 
 Oltre a scrivere un post su Medium, è utile pubblicare il tuo lavoro su una piattaforma che garantisca la **citabilità permanente** (tramite DOI o ID persistente) e l'**indicizzazione** nei motori di ricerca accademici.
 
-Se pensi di pubblicare lo stesso materiale (o anche solo una parte di esso) su una rivista accademica, verifica prima la politica dell'editore (o della specifica rivista) sui cosiddetti *preprint*. Molte riviste accettano articoli che sono stati precedentemente pubblicati su preprint server riconosciuti, ma è sempre meglio controllare le regole specifiche della rivista.
+Se pensi di pubblicare lo stesso materiale (o anche solo una parte di esso) su una rivista accademica, verifica prima la politica dell'editore (o della specifica rivista) sui cosiddetti _preprint_. Molte riviste accettano articoli che sono stati precedentemente pubblicati su preprint server riconosciuti, ma è sempre meglio controllare le regole specifiche della rivista.
 
 Di seguito trovi quattro ottime opzioni, classificate in base al loro focus disciplinare e alla tipologia di materiale che accettano.
 
@@ -74,10 +74,10 @@ SSRN è un'opzione valida soprattutto se il tuo lavoro si colloca all'intersezio
 
 La scelta dipende dall'argomento, dallo scopo della pubblicazione e dal tipo di materiale (documento LaTeX, documento Word, file con dataset, codice sorgente, software associato, ecc.). Esempio per dispense di machine learning già pronte in LaTeX/PDF:
 
-| Scenario | Piattaforma raccomandata | Motivo principale |
-| :--- | :--- | :--- |
-| **Priorità: visibilità accademica e reputazione settoriale** | **TechRxiv** | Supportato dall'IEEE, ottima indicizzazione in Google Scholar per il settore. |
-| **Priorità: flessibilità, DOI standard, archivio dati/codice** | **Zenodo** | Semplice da usare e garantisce un DOI per ogni tipo di output. |
-| **Priorità: massima diffusione nella ricerca pura** | **arXiv** | Piattaforma leader per i preprint in computer science. |
+| Scenario                                                       | Piattaforma raccomandata | Motivo principale                                                             |
+| :------------------------------------------------------------- | :----------------------- | :---------------------------------------------------------------------------- |
+| **Priorità: visibilità accademica e reputazione settoriale**   | **TechRxiv**             | Supportato dall'IEEE, ottima indicizzazione in Google Scholar per il settore. |
+| **Priorità: flessibilità, DOI standard, archivio dati/codice** | **Zenodo**               | Semplice da usare e garantisce un DOI per ogni tipo di output.                |
+| **Priorità: massima diffusione nella ricerca pura**            | **arXiv**                | Piattaforma leader per i preprint in computer science.                        |
 
 Scegliendo una di queste piattaforme, ti assicuri che le tue dispense non siano solo lette, ma diventino parte della letteratura citabile della comunità.

@@ -8,7 +8,7 @@ category: editorial
 related_publications: false
 ---
 
-> **Call for papers aperta** — *Sustainability* (MDPI) — deadline submission **3 febbraio 2027**
+> **Call for papers aperta** — _Sustainability_ (MDPI) — deadline submission **3 febbraio 2027**
 >
 > [→ Pagina ufficiale MDPI](https://www.mdpi.com/journal/sustainability/special_issues/AYV135CE76) ·
 > [→ Submission system](https://www.mdpi.com/user/manuscripts/upload?journal=sustainability)
@@ -19,7 +19,7 @@ related_publications: false
 
 **Artificial Intelligence for Sustainability: From Green Algorithms to Smart Applications**
 
-Special Issue della rivista *[Sustainability](https://www.mdpi.com/journal/sustainability)* (MDPI, ISSN 2071-1050), sezione *Sustainable Engineering and Science*. Open access, peer review single-blind.
+Special Issue della rivista _[Sustainability](https://www.mdpi.com/journal/sustainability)_ (MDPI, ISSN 2071-1050), sezione _Sustainable Engineering and Science_. Open access, peer review single-blind.
 
 ## Aim & Scope
 
@@ -84,7 +84,7 @@ sustainability · energy-aware computing · environmental decision support
 ## Come contribuire
 
 1. Submission online dalla pagina della [call for paper](https://www.mdpi.com/journal/sustainability/special_issues/AYV135CE76)
-2. Per *planned papers*: titolo + abstract (~250 parole) all'Editorial Office per assessment
+2. Per _planned papers_: titolo + abstract (~250 parole) all'Editorial Office per assessment
    preliminare
 3. Tutti i manoscritti che superano il pre-check vanno in peer review single-blind
 4. Pubblicazione **continuous**: gli articoli accettati appaiono online subito e vengono raccolti

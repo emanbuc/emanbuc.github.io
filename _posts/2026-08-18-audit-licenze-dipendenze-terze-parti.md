@@ -21,7 +21,7 @@ Questo post ne è la sintesi ragionata: quando serve un audit, quali domande dev
 rispondere, e dove si nascondono i problemi.
 
 > **Disclaimer.** Quanto segue descrive un processo tecnico e ingegneristico, non è consulenza
-> legale. La classificazione automatica delle licenze produce *indizi*, non pareri: i casi dubbi e
+> legale. La classificazione automatica delle licenze produce _indizi_, non pareri: i casi dubbi e
 > le strategie di remediation vanno validati dall'ufficio legale.
 
 ## Quando l'audit smette di essere facoltativo
@@ -33,7 +33,7 @@ quel punto rispondere "non lo so" costa parecchio:
 - **due diligence M&A o round di investimento** — è quasi sempre il primo documento richiesto;
 - **cliente enterprise** che impone in contratto una clausola di indennizzo sulla proprietà
   intellettuale;
-- **conformità normativa** — nell'UE il *Cyber Resilience Act* impone un SBOM in formato
+- **conformità normativa** — nell'UE il _Cyber Resilience Act_ impone un SBOM in formato
   machine-readable per i prodotti con elementi digitali, con obblighi di segnalazione delle
   vulnerabilità sfruttate attivamente dall'**11 settembre 2026**, piena applicazione dall'**11
   dicembre 2027** e conservazione della documentazione tecnica per **dieci anni**;
@@ -55,7 +55,7 @@ commerciale, quasi tutte le decisioni si riducono a due domande:
 Sono domande diverse, che rispondono a meccanismi giuridici diversi, e confonderle è l'errore più
 comune in circolazione.
 
-### Domanda 1 — l'obbligo di disclosure e il suo *trigger*
+### Domanda 1 — l'obbligo di disclosure e il suo _trigger_
 
 Non basta sapere che una licenza è "copyleft". Bisogna sapere **cosa** va pubblicato e **quando**
 scatta l'obbligo:
@@ -69,7 +69,7 @@ scatta l'obbligo:
 La distinzione fra copyleft forte e copyleft di rete è quella che discrimina il maggior numero di
 decisioni reali. Un'azienda che vende esclusivamente SaaS può convivere con una GPL-3.0 lato
 server — nessuna distribuzione, nessun obbligo — ma **non** con una AGPL-3.0, la cui §13 impone di
-offrire il *Corresponding Source* a chiunque interagisca con il software attraverso una rete.
+offrire il _Corresponding Source_ a chiunque interagisca con il software attraverso una rete.
 
 Un caveat specifico per Python: la LGPL è scritta pensando al linking C. Un `import` Python è
 dinamico e ricade in generale nel caso "uso della libreria non modificata". Ma se **modificate** il
@@ -80,7 +80,7 @@ l'utente non può sostituire la libreria), il quadro cambia.
 
 Qui va detta chiaramente una cosa: **le licenze open source approvate OSI non limitano mai l'uso
 commerciale**. GPL, LGPL e AGPL permettono esplicitamente di vendere il software; impongono
-obblighi di *reciprocità*, non divieti. Trattare "copyleft" come sinonimo di "vietato in ambito
+obblighi di _reciprocità_, non divieti. Trattare "copyleft" come sinonimo di "vietato in ambito
 commerciale" produce blocchi ingiustificati e fa perdere credibilità all'intero processo.
 
 Le licenze che limitano davvero l'uso commerciale sono in gran parte **non-OSI**, e agiscono con
@@ -90,7 +90,7 @@ meccanismi diversi fra loro:
 | ------------------------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Divieto esplicito di uso commerciale | `CC-BY-NC-*`, `PolyForm-Noncommercial`, licenze "research only"   | vietato in qualsiasi prodotto o servizio a pagamento                            |
 | Divieto di rivendita / hosting       | `Commons-Clause`, `Elastic-2.0`                                   | uso interno sì, offerta come servizio no                                        |
-| Licenza a scadenza                   | `BUSL-1.1`                                                        | uso in produzione limitato fino alla *Change Date*                              |
+| Licenza a scadenza                   | `BUSL-1.1`                                                        | uso in produzione limitato fino alla _Change Date_                              |
 | Onere sproporzionato                 | `SSPL-1.0`                                                        | non un divieto, ma rilasciare l'intero stack di servizio lo rende impraticabile |
 | Restrizione di campo d'uso           | licenza `JSON` ("Good, not Evil"), RAIL/OpenRAIL per i modelli ML | vincolo non verificabile automaticamente                                        |
 | No-derivatives                       | `CC-BY-ND-*`                                                      | vieta patch e porting: incompatibile con l'uso in un prodotto                   |
@@ -99,8 +99,8 @@ E naturalmente un componente può essere problematico sia per i requisiti di pub
 
 ## Il problema tecnico: dove vivono i dati di licenza
 
-Prima di poter decidere qualcosa bisogna sapere *cosa dichiara* ogni pacchetto — e in Python
-questa è la parte sorprendentemente fragile. **PEP 639** (ormai *Final*, Core Metadata 2.4) ha
+Prima di poter decidere qualcosa bisogna sapere _cosa dichiara_ ogni pacchetto — e in Python
+questa è la parte sorprendentemente fragile. **PEP 639** (ormai _Final_, Core Metadata 2.4) ha
 introdotto il campo `License-Expression` con un'espressione SPDX validata, deprecando sia il vecchio
 campo libero `License` sia i classifier `License :: OSI Approved :: ...`. Nella realtà di un
 `site-packages` convivono ancora tutte e quattro le generazioni di metadati, con affidabilità molto
@@ -108,7 +108,7 @@ diversa:
 
 1. **`License-Expression`** nel `METADATA` — espressione SPDX validata da PyPI. Fonte autoritativa.
 2. **Classifier `License :: ...`** — vocabolario chiuso ma grossolano: `BSD License` non dice
-   *quale* BSD (la 4-Clause, con la sua *advertising clause*, è incompatibile con la GPL).
+   _quale_ BSD (la 4-Clause, con la sua _advertising clause_, è incompatibile con la GPL).
 3. **Campo `License`** libero — può contenere un identificatore, una frase o l'intero testo.
 4. **File `LICENSE` / `COPYING` / `NOTICE`** e header dei singoli sorgenti — l'unico modo per
    scoprire codice di terze parti incorporato con licenza diversa da quella dichiarata.
@@ -139,9 +139,9 @@ inquinare l'inventario con i componenti dello strumento di audit stesso.
 La logica applicata è in quattro passaggi:
 
 - **risoluzione della licenza** per priorità decrescente di affidabilità (PEP 639 → classifier →
-  campo libero → file di licenza), tracciando *da dove* viene l'informazione;
+  campo libero → file di licenza), tracciando _da dove_ viene l'informazione;
 - **normalizzazione SPDX**, mappando i formati legacy (`"Apache Software License"`, `"BSD
-  License"`, i classifier completi) sugli identificativi canonici;
+License"`, i classifier completi) sugli identificativi canonici;
 - **classificazione** in cinque categorie di rischio: `non_commercial`, `network_copyleft`,
   `strong_copyleft`, `weak_copyleft`, `permissive`;
 - **applicazione della policy**, con esito `allow` / `review` / `deny` / `unknown`, motivazione ed
@@ -207,7 +207,7 @@ Due dettagli che fanno la differenza fra una policy che sopravvive e una che vie
   approvatore, ticket e **data di scadenza** — altrimenti sopravvive a un major upgrade che ne
   cambia i presupposti.
 - **`unknown` non è `allow`.** Un pacchetto senza licenza dichiarata non è di pubblico dominio: per
-  default è "tutti i diritti riservati". Giuridicamente un `UNKNOWN` è il caso *peggiore*, più grave
+  default è "tutti i diritti riservati". Giuridicamente un `UNKNOWN` è il caso _peggiore_, più grave
   di una GPL correttamente identificata.
 
 ### Il gate in CI/CD
@@ -241,7 +241,7 @@ un falso positivo. Gli operatori SPDX `AND`, `OR` e `WITH` vanno interpretati, n
 `grep`.
 
 **3. La divergenza fra dichiarato e reale.** Un pacchetto dichiarato MIT può contenere codice
-*vendorizzato* di terzi con altra licenza, oppure impacchettare librerie native precompilate
+_vendorizzato_ di terzi con altra licenza, oppure impacchettare librerie native precompilate
 (`libssl`, `ffmpeg`, driver di database) la cui licenza non compare da nessuna parte nei metadati.
 Vale la pena ispezionare le wheel dei componenti critici:
 
@@ -250,7 +250,7 @@ python -m zipfile -l dist/pacchetto-1.0-cp311-*.whl | grep -Ei '\.(so|dll|dylib)
 ```
 
 **4. Modelli e dataset scaricati a runtime.** Un pacchetto Python MIT può scaricare all'avvio un
-modello con pesi `CC-BY-NC`, una *responsible AI license* o un dataset con restrizioni d'uso.
+modello con pesi `CC-BY-NC`, una _responsible AI license_ o un dataset con restrizioni d'uso.
 **Nessuno strumento di license scanning per Python rileva questo caso.** Va gestito con una
 checklist manuale sui componenti che scaricano artefatti esterni, ed è il rischio più sottovalutato
 nei progetti di machine learning.
@@ -275,7 +275,7 @@ In ordine di preferenza, dalla soluzione più pulita alla più costosa:
 4. **Conformarsi all'obbligo** — per il copyleft debole spesso è banale: sorgente del componente,
    testo della licenza, sostituibilità garantita.
 5. **Licenza commerciale** — molti progetti copyleft sono in dual licensing (Qt, MySQL, iText).
-6. **Riscrittura interna** in *clean room* — ultima risorsa.
+6. **Riscrittura interna** in _clean room_ — ultima risorsa.
 
 Quello che non va mai fatto: cambiare l'intestazione di licenza di codice altrui, rimuovere un file
 `LICENSE` da un pacchetto ridistribuito, o considerare accettabile un `UNKNOWN`.
@@ -307,5 +307,5 @@ Lo strumento è rilasciato sotto GPL-3.0 — il che, con una certa ironia, lo co
 che etichetta come `strong_copyleft`. Nessun conflitto: si usa come eseguibile autonomo per
 analizzare un ambiente, non come libreria da importare nel vostro prodotto. Che poi è esattamente la
 distinzione fra linking e mera aggregazione di cui sopra — un buon promemoria del fatto che, in
-questa materia, la domanda giusta non è mai "che licenza ha?" ma "che licenza ha, e *come* lo sto
+questa materia, la domanda giusta non è mai "che licenza ha?" ma "che licenza ha, e _come_ lo sto
 usando?".

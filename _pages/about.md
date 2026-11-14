@@ -32,7 +32,7 @@ I am an **Italian Software Engineer** and researcher with a lifelong passion for
 ### Industrial Experience
 
 Since 2019, I have served as the **Chief Technology Officer (CTO) at Smartpeg**, where I lead the development of data-driven software solutions for Human Resource management and AI-powered intelligence tools. I first joined Smartpeg in 2016, diving deep into Industrial IoT and Machine Learning. Prior to this, I gained extensive experience in technical and managerial roles across the electronics and fashion sectors, working with multinational companies both in Italy and abroad. To complement my technical background, I earned my **MBA in 2011**, which helps me navigate the strategic side of technology management.
-Since 2024, I have been collaborating with *Nomos AI* and *Merita Edizioni* on the development of services based on generative AI.
+Since 2024, I have been collaborating with _Nomos AI_ and _Merita Edizioni_ on the development of services based on generative AI.
 
 ### Research & Academia
 
@@ -40,11 +40,10 @@ In 2024, I completed my **Ph.D. in Industrial and Information Engineering** at t
 
 ### Technical Expertise
 
-* **machine learning (ML), deep learning (DL)**
-* **generative AI, large language model (LLM)**
-* **Cloud Computing & Cloud-native Architectures**
-* **DevOps & Cybersecurity**
-* **Internet of Things (IoT)**
-* **Software Quality & Characterization**
-* **Software Engineering** 
-
+- **machine learning (ML), deep learning (DL)**
+- **generative AI, large language model (LLM)**
+- **Cloud Computing & Cloud-native Architectures**
+- **DevOps & Cybersecurity**
+- **Internet of Things (IoT)**
+- **Software Quality & Characterization**
+- **Software Engineering**

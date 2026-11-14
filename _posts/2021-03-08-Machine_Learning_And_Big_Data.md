@@ -7,6 +7,7 @@ tags: AI ML BigData
 categories: Courses AI ML BigData
 #thumbnail: assets/img/azure_ml_01-02-workspace.png
 ---
+
 # Machine Learning and Big Data
 
 ## Table of Content

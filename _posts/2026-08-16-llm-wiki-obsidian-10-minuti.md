@@ -179,11 +179,11 @@ inviare nulla online): se ti interessa, è un argomento che possiamo approfondir
 
 ## Se qualcosa non funziona
 
-| Problema                                         | Cosa fare                                                                                                                                                                          |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Il pulsante "Test Connection" resta rosso        | Ricontrolla di aver incollato la chiave per intero, senza spazi extra all'inizio o alla fine                                                                                     |
+| Problema                                         | Cosa fare                                                                                                                                                                           |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Il pulsante "Test Connection" resta rosso        | Ricontrolla di aver incollato la chiave per intero, senza spazi extra all'inizio o alla fine                                                                                        |
 | L'ingest si ferma con un errore "quota esaurita" | Hai raggiunto il limite giornaliero gratuito. Aspetta il giorno dopo (il conteggio si azzera intorno alle 9-10 del mattino, ora italiana) oppure riduci il numero di note per volta |
-| Le pagine generate sembrano confuse o imprecise  | Normale nelle prime prove: correggi manualmente e imposta `reviewed: true` sulle pagine sistemate. Con l'uso, e con un modello leggermente più capace, la qualità migliora        |
+| Le pagine generate sembrano confuse o imprecise  | Normale nelle prime prove: correggi manualmente e imposta `reviewed: true` sulle pagine sistemate. Con l'uso, e con un modello leggermente più capace, la qualità migliora          |
 
 ---
 

@@ -11,7 +11,7 @@ toc:
 
 Gli agenti AI hanno superato da un pezzo la fase della demo. Il problema che ne blocca l'adozione
 in azienda, però, non è quasi mai la capacità del modello: è il **perimetro del dato**. Un agente
-diventa utile esattamente nel momento in cui gli si dà accesso al materiale che conta  come ad esempio il
+diventa utile esattamente nel momento in cui gli si dà accesso al materiale che conta come ad esempio il
 repository proprietario, la casella di posta, i ticket, i contratti, i fogli di calcolo con i
 numeri veri. Cioè esattamente il materiale che, in molte organizzazioni, non può attraversare la
 rete verso un fornitore terzo.
@@ -80,7 +80,7 @@ leggibili. Per uno strumento che ha accesso a shell, file e caselle di posta, la
 una connessione" non è retorica: è la differenza fra una due diligence documentale e una tecnica.
 
 **Continuità.** Se il progetto cambia rotta, cambia licenza o viene abbandonato, il codice resta e
-una build interna rimane possibile. È l'argomento di *exit strategy* che qualunque procurement
+una build interna rimane possibile. È l'argomento di _exit strategy_ che qualunque procurement
 serio chiede, ed è l'unico caso in cui la risposta può essere sostanziale invece che contrattuale.
 
 Detto questo, va aggiunta la parte scomoda: **open source non significa sicuro**. Un agente MIT
@@ -138,7 +138,7 @@ campo `base_url` è **vuoto**, OpenWorker usa la **Responses API** (`/v1/respons
 `base_url` è **valorizzato**, passa alla **Chat Completions API** (`/v1/chat/completions`). Il passaggio è automatico: non serve
 configurare nulla oltre all'URL.
 
-Il risultato è che la scelta dell'endpoint diventa una decisione di *policy*, non di prodotto:
+Il risultato è che la scelta dell'endpoint diventa una decisione di _policy_, non di prodotto:
 
 | Opzione                      | Dove gira il modello      | Dove finiscono i prompt         | Quando ha senso                                                   |
 | ---------------------------- | ------------------------- | ------------------------------- | ----------------------------------------------------------------- |
@@ -154,7 +154,7 @@ Il risultato è che la scelta dell'endpoint diventa una decisione di *policy*, n
 Prima di collegare qualunque modello privato, va verificata una cosa sola ma decisiva: **il
 modello e il runtime devono supportare il function calling nativo**. OpenWorker è un agente; senza
 tool non può leggere file, eseguire comandi o usare connettori, e la sessione degenera in una chat
-che *descrive* cosa farebbe.
+che _descrive_ cosa farebbe.
 
 Modelli con tool calling solido e ragionevolmente eseguibili in locale: la famiglia **Qwen3 /
 Qwen3-Coder**, **GLM**, **Mistral**, **Devstral**, i **Llama 3.3/4** instruct. I modelli piccoli
@@ -168,7 +168,7 @@ riempie molto in fretta. Se il tema è nuovo, ho scritto una guida dedicata su
 
 ### Collegare LM Studio
 
-Server locale da avviare dal tab *Developer* (o via CLI `lms`), endpoint di default
+Server locale da avviare dal tab _Developer_ (o via CLI `lms`), endpoint di default
 `http://localhost:1234/v1`:
 
 ```bash
@@ -178,8 +178,8 @@ lms ps                                  # identifier dei modelli caricati
 curl http://localhost:1234/v1/models    # verifica prima di configurare l'app
 ```
 
-In OpenWorker, *Settings ▸ Models ▸ card OpenAI*: come API key un valore qualsiasi non vuoto
-(`lm-studio` va bene — l'SDK lo richiede, il server locale lo ignora), come *custom endpoint*
+In OpenWorker, _Settings ▸ Models ▸ card OpenAI_: come API key un valore qualsiasi non vuoto
+(`lm-studio` va bene — l'SDK lo richiede, il server locale lo ignora), come _custom endpoint_
 `http://localhost:1234/v1`. Poi si imposta come stringa di modello l'identifier restituito da
 `lms ps`.
 
@@ -222,7 +222,7 @@ consuma molte richieste, perché ogni iterazione tool → modello è una request
 Due avvertenze che in un contesto aziendale sono dirimenti:
 
 - **Le quote sono per progetto, non per chiave.** Creare più chiavi nello stesso progetto Google
-  Cloud non aumenta la quota. La fonte autorevole sui limiti è la pagina *Rate limit* del proprio
+  Cloud non aumenta la quota. La fonte autorevole sui limiti è la pagina _Rate limit_ del proprio
   progetto in AI Studio, non le tabelle di terze parti.
 - **Sul free tier i contenuti scambiati possono essere usati per migliorare i prodotti del
   fornitore**; sui servizi a pagamento no. Per un agente che legge file locali e casella email
@@ -272,7 +272,7 @@ universalmente sicuro, ed è l'utente che si assume esplicitamente quell'autorit
 **Il workspace trust è un confine, non una comodità organizzativa.** La configurazione esiste su
 due livelli — globale nella state dir, e per-progetto in `<progetto>/.coworker/`. Ma i campi
 `allowed_commands` e `auto_allow`, e i server MCP definiti nel workspace, **non vengono mai letti
-dal progetto** finché l'utente non ha marcato quel path come *trusted*. Tradotto: clonare il
+dal progetto** finché l'utente non ha marcato quel path come _trusted_. Tradotto: clonare il
 repository di un fornitore non basta a fargli autorizzare comandi o caricare server MCP. È
 esattamente la protezione che serve quando si lavora su codice che arriva dall'esterno.
 
@@ -324,7 +324,7 @@ Le chiavi si possono passare da variabile d'ambiente (`GEMINI_API_KEY`, `OPENAI_
 ```jsonc
 // ~/.config/coworker/secrets.json
 {
-  "provider:gemini": { "api_key": "${GEMINI_API_KEY}" }
+  "provider:gemini": { "api_key": "${GEMINI_API_KEY}" },
 }
 ```
 

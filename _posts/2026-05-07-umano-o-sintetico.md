@@ -6,9 +6,10 @@ description: "Un’analisi provocatoria su perché, nell’era dell’IA, il val
 tags: intelligenza-artificiale IA contenuti-digitali pregiudizi-tecnologici
 categories: Tecnologia Lavoro AI
 ---
-Il dibattito contemporaneo è ossessionato dalla **"caccia all'algoritmo"**. Docenti, editori e lettori scansionano i testi alla ricerca di tracce di intelligenza artificiale, come se fosse un reato da smascherare. Se l’ossessione per il *chi* ha scritto stesse oscurando il *cosa* è stato scritto e, soprattutto, il *perché*?
 
-*Se un testo ti aiuta a risolvere un problema, ti emoziona o ti insegna qualcosa, la scoperta che sia stato generato da un algoritmo cambia la verità di quell’emozione… o solo il tuo pregiudizio su di essa?*
+Il dibattito contemporaneo è ossessionato dalla **"caccia all'algoritmo"**. Docenti, editori e lettori scansionano i testi alla ricerca di tracce di intelligenza artificiale, come se fosse un reato da smascherare. Se l’ossessione per il _chi_ ha scritto stesse oscurando il _cosa_ è stato scritto e, soprattutto, il _perché_?
+
+_Se un testo ti aiuta a risolvere un problema, ti emoziona o ti insegna qualcosa, la scoperta che sia stato generato da un algoritmo cambia la verità di quell’emozione… o solo il tuo pregiudizio su di essa?_
 
 ---
 
@@ -24,7 +25,7 @@ Eppure, c’è chi continua a sostenere che un testo "sintetico" sia intrinsecam
 
 ## 2. L’IA come "Specchio del Pensiero" Umano
 
-Scrivere con l’IA non è quasi mai un atto passivo di "generazione spontanea". È un processo di **collaborazione e curatela**. L’umano fornisce il *prompt* (l’intento), seleziona i risultati, corregge le imprecisioni e modella il tono. In questo senso, il testo generato dall’IA è una **protesi cognitiva**: uno strumento che amplifica le nostre capacità, non le sostituisce.
+Scrivere con l’IA non è quasi mai un atto passivo di "generazione spontanea". È un processo di **collaborazione e curatela**. L’umano fornisce il _prompt_ (l’intento), seleziona i risultati, corregge le imprecisioni e modella il tono. In questo senso, il testo generato dall’IA è una **protesi cognitiva**: uno strumento che amplifica le nostre capacità, non le sostituisce.
 
 - Se il pensiero dietro il prompt è banale, il risultato sarà banale.
 - Se il pensiero è profondo, originale o innovativo, l’IA diventa un **amplificatore** di quella profondità.
@@ -37,7 +38,7 @@ Sostenere che solo un testo "100% umano" sia autentico è problematico. Da anni,
 
 Molti editori richiedono di dichiarare esplicitamente l'utilizzo di strumenti basati su AI. In altri casi le linee guida editoriali ne vietano tassativamente l'utilizzo. Se ad esempio utilizzassi uno strumento basato su AI per rendere più fluido e facile da comprendere un testo che ho scritto in una lingua diversa dalla mia lingua madre, che conclusione dovrebbe trarre il lettore rispetto alla validità del contenuto sapendo che è stato usato uno strumento basato su AI?
 
-Riconoscere l’uso dell’IA, quindi, non ci dice nulla sulla validità dell’idea originale e del contenuto finale. Invece di chiederci *"È un testo umano?"*, dovremmo porci domande più significative:
+Riconoscere l’uso dell’IA, quindi, non ci dice nulla sulla validità dell’idea originale e del contenuto finale. Invece di chiederci _"È un testo umano?"_, dovremmo porci domande più significative:
 
 - **È vero?** (Accuratezza)
 - **È utile?** (Rilevanza)
